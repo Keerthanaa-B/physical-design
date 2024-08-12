@@ -13,7 +13,7 @@ Compile and verify a basic C code using GCC and the RISC-V GNU compiler toolchai
 Installed GCC and RISC-V GNU Compiler Toolchain on Ubuntu.<br/>
 Prepared a simple C program for compilation.<br/>
 ## Procedure
-Task 1: Compile and Verify C Code using GCC
+## Task 1: Compile and Verify C Code using GCC
 ### 1. Code Snippet:
 ```c
 include<stdio.h>
@@ -62,6 +62,10 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 ![risc6](https://github.com/user-attachments/assets/c2eca8d6-feda-485d-b8de-eb6d860efb6c)
 
 By comparing both -O1 and -Ofast, -Ofast gives the better optimization results which as only 12 instructions withrespect to the 15 instructions in -O1.
+
+# LAB 2
+## TASK 1
+
 
 
 
