@@ -113,6 +113,16 @@ reg 0 sp
 after this instruction the stack pointer value is decremented by 10 in hexadecimal which is equivalent to 16 in decimal
 ![Screenshot from 2024-08-12 15-16-15](https://github.com/user-attachments/assets/eb7daffd-3b2b-4ddf-a586-2ccf4b0982c9)
 
+# LAB 3
+
+## TASK 1 : 32-bit RISC-V Instruction Formats: Encoding, Simulation and Waveform analysis
+### RISC-V Instruction formats and Hexadecimal Encoding of Specific Instructions
+### Base Instruction Formats
+
+RISC-V has six core instruction formats: R,I,S,B,U and J. These are all fixed32 bit length. Here is a brief description of each format:
+
+There are four core instruction formats (R/I/S/U), and there are a further two variants of the instruction formats (B/J) based on the handling of immediates.
+
 
 
 
