@@ -122,7 +122,39 @@ after this instruction the stack pointer value is decremented by 10 in hexadecim
 RISC-V has six core instruction formats: R,I,S,B,U and J. These are all fixed32 bit length. Here is a brief description of each format:
 
 There are four core instruction formats (R/I/S/U), and there are a further two variants of the instruction formats (B/J) based on the handling of immediates.
+1. **R-Type (Register)**
+   + Format: funct7[31:25] | rs2[24:20] | rs1[19:15] | funct3[14:12] | rd[11:7] | opcode[6:0]
+   + Used for register-register arithmetic, logical operations and load instructions.
+   ![Screenshot 2024-07-24 191624](https://github.com/user-attachments/assets/41f5fc12-5e58-4e60-bebc-8b1cef556214)
 
+2. **I-Type (Immediate)**
+   + Format: imm[31:25] | rs2[24:20] | rs1[19:15] | funct3[14:12] | rd[11:7] | opcode[6:0]
+   + Used for immediate arithmetic, logical operations and load instructions.
+   ![Screenshot 2024-07-24 191624](https://github.com/user-attachments/assets/41f5fc12-5e58-4e60-bebc-8b1cef556214)    
+
+3. **S-Type (Store)**
+   + Format: imm[31:25] | rs2[24:20] | rs1[19:15] | funct3[14:12] | imm[11:7] | opcode[6:0]
+   + Used for store instructions.
+   ![Screenshot 2024-07-24 191625](https://github.com/user-attachments/assets/446beff5-399d-4426-b868-0d9c6d2ef271)
+
+4. **U-Type (Upper Immediate)**
+   + Format: imm[31:12] | rd[11:7] | opcode[6:0]
+   + Used for instructions that operate with a 20-bit upper immediate , such as LUI (Load Upper Immediate).
+   ![Screenshot 2024-07-24 191626](https://github.com/user-attachments/assets/60c0073d-2e33-4fbd-a54b-01a606aeb353)
+
+5. **B-Type (Branch)**
+   +  Format: imm[31:25] | rs2[24:20] | rs1[19:15] | funct3[14:12] | imm[11:7] | opcode[6:0]
+   + Used for conditional branch instructions.
+   ![Screenshot 2024-07-24 191847](https://github.com/user-attachments/assets/33c0c62f-3fe2-48bd-a1f5-18db951807cf)
+
+6. **J-Type (Jump)**
+   + Format: imm[31:20] | imm[19:12] | rd[11:7] | opcode[6:0]
+   + Used for jump instructions such as JAL (Jump and Link).
+   ![Screenshot 2024-07-24 191848](https://github.com/user-attachments/assets/7b2e93a1-1fc8-447f-95ed-1d34b82e8625)
+
+
+   
+     
 
 
 
