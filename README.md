@@ -79,7 +79,17 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
 ```
 ![Screenshot from 2024-08-12 14-47-23](https://github.com/user-attachments/assets/1e802cc2-b16e-4d59-8ee9-ddd8e030088d)
 
- 
+ we get the following output 
+ The snapshot of the assembly level of the main section of the program is shown below for reference
+
+ ![Screenshot from 2024-08-12 14-53-44](https://github.com/user-attachments/assets/0ae0fe24-5c59-49a4-b463-23a7abe51002)
+
+ ## Step 3
+
+ Again compile the c program using gcc compiler and spike simulator. we get the following output shown below
+ ![Screenshot from 2024-08-12 15-06-07](https://github.com/user-attachments/assets/5862ebde-a8b5-4380-9bec-569d06506478)
+
+
 
 
 
