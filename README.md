@@ -87,7 +87,8 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
  ## Step 3
 
  Again compile the c program using gcc compiler and spike simulator. we get the following output shown below
- ![Screenshot from 2024-08-12 15-06-07](https://github.com/user-attachments/assets/5862ebde-a8b5-4380-9bec-569d06506478)
+ ![Screenshot from 2024-08-12 14-55-22](https://github.com/user-attachments/assets/4bde200f-8b69-40a2-92b2-3f1d64ce8643)
+ 
 
 
 
