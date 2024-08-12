@@ -206,6 +206,69 @@ Hard-coded Instructions : These are the custom instructions where the bit patter
 |  SLL R15, R1, R2     |    32'h002097b3            |  32'h00208783  |  
 
 
+### Analysing the output of above given instructions:
+
+```
+ADD R6, R2, R1
+```
+![Screenshot from 2024-08-12 20-00-44](https://github.com/user-attachments/assets/0a2ee2d3-fa6c-489b-bdfe-4efd75d279a9)
+
+```
+SUB R7, R1, R2
+```
+![Screenshot from 2024-08-12 20-01-55](https://github.com/user-attachments/assets/86b18f92-0831-44ed-b046-c92041572610)
+
+```
+AND R8, R1, R3
+```
+![Screenshot from 2024-08-12 20-02-00](https://github.com/user-attachments/assets/5079a999-696b-49a9-a37c-4a67fe6b3a27)
+
+```
+OR R9, R2, R5
+```
+![Screenshot from 2024-08-12 20-02-04](https://github.com/user-attachments/assets/88513ceb-9461-4f10-a358-9d018ae84f86)
+
+```
+XOR R10, R1, R4
+```
+![Screenshot from 2024-08-12 20-02-08](https://github.com/user-attachments/assets/55ab8328-22ae-475d-b4ec-60c6126d1f2f)
+
+```
+SLT R1, R2, R4
+```
+![Screenshot from 2024-08-12 20-02-11](https://github.com/user-attachments/assets/d6002341-7158-45de-9cf4-859cb292b5e6)
+
+```
+ADDI R12,R4,5
+```
+![Screenshot from 2024-08-12 20-02-14](https://github.com/user-attachments/assets/89f81309-6dd0-49ba-8dab-bc392b606e00)
+
+```
+BEQ R0, R0, 15
+```
+![Screenshot from 2024-08-12 20-02-17](https://github.com/user-attachments/assets/bb3dfd2e-cea8-4746-93b3-761612e78916)
+
+```
+SW R3, R1, 2
+```
+![Screenshot from 2024-08-12 20-02-27](https://github.com/user-attachments/assets/c69ea663-cf5e-48ad-9581-8ebe270fc49d)
+
+```
+LW R13, R1, 2
+```
+![Screenshot from 2024-08-12 20-03-05](https://github.com/user-attachments/assets/4d5aec42-c22d-4a86-b4ef-1271b3613677)
+
+```
+SRL R16, R14, R2
+```
+![Screenshot from 2024-08-12 20-03-13](https://github.com/user-attachments/assets/2db2ec0e-701a-446a-a541-4e0b5bd6b385)
+
+```
+SLL R15, R1, R2
+```
+![Screenshot from 2024-08-12 20-03-19](https://github.com/user-attachments/assets/4fdf0d3c-50d6-4a0b-881a-ceec21e324f0)
+
+
 
 
 
