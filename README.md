@@ -173,9 +173,36 @@ There are four core instruction formats (R/I/S/U), and there are a further two v
 |  13. | SLL r5,r1,r1         |         R          | 0000000_00001_00001_001_00101_0110011   |        0x001092B3          |
 
 
+# TASK 2 : Simulation and Waveform Analysis
+### Steps to perform functional simulation
+
+1. Create two files in gedit as riscv.v and riscv_tb.v
+2. Copy the code from the reference github repository and paste it in your verilog and testbench files.
+3. To run and Simulate the verilog code in gtkwave, enter the following commands:
+
+![Screenshot from 2024-08-12 21-38-20](https://github.com/user-attachments/assets/5c1fc39f-6eb2-4654-b3fa-2cf8710b8604)
 
 
+**Following are the differences between standard RISCV ISA and Hardcoded ISA for the instruction set given in the reference repository:**
 
+The standard RISC-V ISA for the given instructions can be generated in a manner similar to the approach we used in Task 1
+
+Hard-coded Instructions : These are the custom instructions where the bit patterns are manually set by the designer rather than adhering to the standard RISC-V specification. And they are designed for a specific purpose or application. Hence the 32-bits instruction that we generated will not match with the hardcoded ISA.
+
+
+|   **Instructions**   |   **Standard RISCV ISA**   |   **Hardcoded ISA**   |
+|    ADD R6, R2, R1    |    32'h00110R333  |  32'h02208300  |
+|   SUB R7, R1, R2     |    32'h402083b3   |  32'h02209380  |
+|  AND R8, R1, R3  |  32'h0030f433  |  32'h0230a400  |  
+  |  OR R9, R2, R5  |  32'h005164b3  |  32'h02513480  |  
+  |  XOR R10, R1, R4  |  32'h0040c533  |  32'h0240c500  |  
+  |  SLT R1, R2, R4  |  32'h0045a0b3  |  32'h02415580  |  
+  |  ADDI R12, R4, 5  |  32'h004120b3  |  32'h00520600  |  
+  |  BEQ R0, R0, 15  |  32'h00000f63  |  32'h00f00002  |  
+  |  SW R3, R1, 2  |  32'h0030a123  |  32'h00209181  |  
+  |  LW R13, R1, 2  |  32'h0020a683  |  32'h00208681  |  
+  |  SRL R16, R14, R2  |  32'h0030a123  |  32'h00271803  |
+  |  SLL R15, R1, R2  |  32'h002097b3  |  32'h00208783  |  
 
 
 
