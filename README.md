@@ -98,9 +98,20 @@ we want to run our program till 100b0
 ```
 until pc 0 100b0
 ```
+After running the program manually, we can see the "bbl loader", this ensures that assembly code has run till 100b0 address, in my case <br/> 
+*First command is lui a2,0x1 which changes a2 register <br/>
+After excution of first instruction manually with spike debugger the a2 register value changes from 0x0000000000000000 to 0x0000000000001000 <br/>
 
-
- 
+we check the content of the register using following command
+```
+reg 0 a2
+```
+we will manually execute the next instruction i.e, lui a0,0x21 and addi sp,sp,-16 . this instruction will decrements the stact pointer. Before the execution the stack pointer register holds the value 0x0000003ffffffb50 and updated to 0x0000003ffffffb40 
+```
+reg 0 sp
+```
+after this instruction the stack pointer value is decremented by 10 in hexadecimal which is equivalent to 16 in decimal
+![Uploading Screenshot from 2024-08-12 15-16-15.png…]()
 
 
 
