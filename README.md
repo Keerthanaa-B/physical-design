@@ -87,7 +87,19 @@ riscv64-unknown-elf-objdump -d sum1ton.o | less
  ## Step 3
 
  Again compile the c program using gcc compiler and spike simulator. we get the following output shown below
- ![Screenshot from 2024-08-12 14-55-22](https://github.com/user-attachments/assets/4bde200f-8b69-40a2-92b2-3f1d64ce8643)
+![Screenshot from 2024-08-12 15-06-07](https://github.com/user-attachments/assets/d51a2222-9c63-4887-b90d-078b9f68b8cf)
+
+## Step 4
+For debugging the code, we use debugger using spike
+```
+spike -d pk sum1ton.o
+```
+we want to run our program till 100b0
+```
+until pc 0 100b0
+```
+
+
  
 
 
