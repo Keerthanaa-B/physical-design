@@ -99,7 +99,7 @@ we want to run our program till 100b0
 until pc 0 100b0
 ```
 After running the program manually, we can see the "bbl loader", this ensures that assembly code has run till 100b0 address, in my case <br/> 
-*First command is lui a2,0x1 which changes a2 register <br/>
+* First command is lui a2,0x1 which changes a2 register <br/>
 After excution of first instruction manually with spike debugger the a2 register value changes from 0x0000000000000000 to 0x0000000000001000 <br/>
 
 we check the content of the register using following command
