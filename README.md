@@ -72,6 +72,12 @@ By comparing both -O1 and -Ofast, -Ofast gives the better optimization results w
  ```
 riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ```
+## Step 2
+Get the object dump using the command mentioned below
+```
+riscv64-unknown-elf-objdump -d sum1ton.o | less
+```
+![Screenshot from 2024-08-12 14-47-23](https://github.com/user-attachments/assets/1e802cc2-b16e-4d59-8ee9-ddd8e030088d)
 
  
 
