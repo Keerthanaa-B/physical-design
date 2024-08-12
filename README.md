@@ -111,7 +111,8 @@ we will manually execute the next instruction i.e, lui a0,0x21 and addi sp,sp,-1
 reg 0 sp
 ```
 after this instruction the stack pointer value is decremented by 10 in hexadecimal which is equivalent to 16 in decimal
-![Uploading Screenshot from 2024-08-12 15-16-15.png…]()
+![Screenshot from 2024-08-12 15-16-15](https://github.com/user-attachments/assets/eb7daffd-3b2b-4ddf-a586-2ccf4b0982c9)
+
 
 
 
