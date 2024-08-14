@@ -269,7 +269,49 @@ SLL R15, R1, R2
 ![Screenshot from 2024-08-12 20-03-19](https://github.com/user-attachments/assets/4fdf0d3c-50d6-4a0b-881a-ceec21e324f0)
 
 
+# LAB 4: Selecting and Compiling a Application using GCC and RISC-V GCC
+## Application Name: Temperature Converter
+### Overview: It convertes the temperature from celcius to fahrenheit and from fahrenheit to celcius.
+**Temperature Converter** is a C-based application which converts the temperature to different scales like from celcius to fahrenheit and also from fahrenheit to celcius. 
 
+**Code**
+```c
+
+#include <stdio.h>
+
+int main() {
+    float celsius, fahrenheit;
+    int choice;
+
+    printf("Enter 1 to convert Celsius to Fahrenheit or 2 for Fahrenheit to Celsius: ");
+    scanf("%d", &choice);
+
+    if (choice == 1) {
+        printf("Enter temperature in Celsius: ");
+        scanf("%f", &celsius);
+        fahrenheit = (celsius * 9/5) + 32;
+        printf("Temperature in Fahrenheit: %.2f\n", fahrenheit);
+    } else if (choice == 2) {
+        printf("Enter temperature in Fahrenheit: ");
+        scanf("%f", &fahrenheit);
+        celsius = (fahrenheit - 32) * 5/9;
+        printf("Temperature in Celsius: %.2f\n", celsius);
+    } else {
+        printf("Invalid choice\n");
+    }
+
+    return 0;
+}
+
+```
+### Compiling the Application using GCC Compiler
+![Screenshot 2024-08-14 213445](https://github.com/user-attachments/assets/e9bd8be3-b484-459e-97f2-f71d9b57854e)
+
+
+### Compiling the Application using RISC-V GCC Compiler
+![Screenshot 2024-08-14 213346](https://github.com/user-attachments/assets/3b0a7a9c-7733-4788-9883-9591e9116647)
+
+By comparing the results of both GCC and RISC-V GCC compilers, we got identical results.
 
 
 
