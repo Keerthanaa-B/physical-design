@@ -308,10 +308,22 @@ int main() {
 ![Screenshot 2024-08-14 213445](https://github.com/user-attachments/assets/e9bd8be3-b484-459e-97f2-f71d9b57854e)
 
 
-### Compiling the Application using RISC-V GCC Compiler
-![Screenshot 2024-08-14 213346](https://github.com/user-attachments/assets/3b0a7a9c-7733-4788-9883-9591e9116647)
+# LAB 4
 
-By comparing the results of both GCC and RISC-V GCC compilers, we got identical results.
+# Digital Logic with TL-Verilog and Makerchip
+
+#### MAKERCHIP 
+Makerchip is a free online environment by Redwood EDA for developing high-quality integrated circuits. The online platform can be used to code, compile, simulate and debug Verilog designs all in just one tool. Access and learn from [here](http://makerchip.com/)
+   
+#### TL VERILOG
+Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL and a huge step forward in coding HDL languages. TL-Verilog introduces simpler syntaxes and adds powerful constructs which makes Logic Design fun and easy. (Also can say its a Higher Abstraction to Sys V). Generally, high-speed designs are less than half the size in TL-Verilog versus SystemVerilog without any loss in detail! More about it [here](https://www.redwoodeda.com/tl-verilog)
+  
+ #### DIGITAL DESIGN
+  
+  Below are a set of images from Makerchip showcasing the TL-V code for Combinational and sequential logic and Simulation Output. Most of the basic circuits examples can be found in Makerchip Tutorials anexhaustive list to get anyone enough information to learn the platform and TL-Verilog.
+  
+1. Inverter
+   ![Screenshot 2024-08-20 192005](https://github.com/user-attachments/assets/e5205387-c5fc-40ca-a105-54e11c1f7d0e)
 
 
 
