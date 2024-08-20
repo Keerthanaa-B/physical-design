@@ -346,4 +346,7 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
 
   <img width="959" alt="sequential calculator" src="https://github.com/user-attachments/assets/a3541ba8-13e0-47e9-aed8-75d94a1fa769">
 
+2. Fibonacci series
+
+  ![Screenshot 2024-08-20 194104](https://github.com/user-attachments/assets/12515516-8be2-4ade-8975-a0cca7fdec19)
 
