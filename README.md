@@ -354,3 +354,21 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
 
    ![Screenshot 2024-08-20 194245](https://github.com/user-attachments/assets/fba5c820-366c-464c-9f92-1604e166e50f)
 
+### (iii) Pipelining
+
+1. Pythagoras Theorem
+
+   <img width="959" alt="pythagoras" src="https://github.com/user-attachments/assets/81fb9339-5f5c-46de-b869-51204a2d4586">
+
+2. Cycle calculator
+
+   <img width="958" alt="cycle calculator" src="https://github.com/user-attachments/assets/e39b9b9b-0e95-4d53-93b0-8b86a1bab00d">
+
+3. Cycle calculator with validity
+
+   ![cycle calculator with validity](https://github.com/user-attachments/assets/f69ff9eb-aa1b-45e9-acb0-e04cdc2125f7)
+
+4. 2-cycle calculator with validity and memory
+
+   ![calculator with 2 cycle](https://github.com/user-attachments/assets/bbe6e0a4-1837-4465-87ef-5d6a4170f784)
+
