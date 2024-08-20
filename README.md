@@ -350,3 +350,7 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
 
   ![Screenshot 2024-08-20 194104](https://github.com/user-attachments/assets/12515516-8be2-4ade-8975-a0cca7fdec19)
 
+3. Free running Counter
+
+   ![Screenshot 2024-08-20 194245](https://github.com/user-attachments/assets/fba5c820-366c-464c-9f92-1604e166e50f)
+
