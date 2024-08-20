@@ -321,9 +321,29 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
  #### DIGITAL DESIGN
   
   Below are a set of images from Makerchip showcasing the TL-V code for Combinational and sequential logic and Simulation Output. Most of the basic circuits examples can be found in Makerchip Tutorials anexhaustive list to get anyone enough information to learn the platform and TL-Verilog.
+
+### (i) Combinational Logic
   
 1. Inverter
+   
    ![Screenshot 2024-08-20 192005](https://github.com/user-attachments/assets/e5205387-c5fc-40ca-a105-54e11c1f7d0e)
 
+3. AND Gate
+
+   ![Screenshot 2024-08-20 192115](https://github.com/user-attachments/assets/e3f7c9a2-a90c-4b47-826c-ee9ce975f503)
+
+3. OR Gate
+
+   ![Screenshot 2024-08-20 192155](https://github.com/user-attachments/assets/dc9c469a-3e78-43b4-98c1-13d2b489e7a1)
+
+4. XOR gate using vectors
+
+   ![Screenshot 2024-08-20 192702](https://github.com/user-attachments/assets/2adf1511-63ce-4d98-96b5-a141d52b55f1)
+
+### (ii) Sequential Logic
+
+1. Sequential Calculator
+
+  <img width="959" alt="sequential calculator" src="https://github.com/user-attachments/assets/a3541ba8-13e0-47e9-aed8-75d94a1fa769">
 
 
