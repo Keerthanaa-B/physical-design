@@ -553,4 +553,12 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
 ![Screenshot 2024-08-21 212400](https://github.com/user-attachments/assets/99aaed75-fb8c-4457-a2dd-a08b563d2789)
 ![Screenshot 2024-08-21 212029](https://github.com/user-attachments/assets/e90d09d5-54ae-4adc-8934-98ff7aa8f3bd)
 
+### Complete Pipelined RISCV core 
+
+![Screenshot 2024-08-21 214032](https://github.com/user-attachments/assets/309e17fd-88bc-4510-ba33-cdb0a184a06c)
+
+![Screenshot 2024-08-21 214335](https://github.com/user-attachments/assets/95d115f9-7a2b-47f9-ab85-78fb6b14612a)
+
+
+
 
