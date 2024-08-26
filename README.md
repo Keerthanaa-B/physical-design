@@ -857,10 +857,27 @@ Transaction Level Verilog or TL-Verilog is an extension to existing Verilog HDL 
 
 ![Screenshot 2024-08-21 214335](https://github.com/user-attachments/assets/95d115f9-7a2b-47f9-ab85-78fb6b14612a)
 
+<img width="958" alt="wav" src="https://github.com/user-attachments/assets/f740f78b-354b-4b19-aaaa-a49640931d75">
+
+
 
 # LAB 6
 
 ## Conversion from TLV into Verilog using Sandpiper-SaaS compiler.Following the conversion, pre-synthesis simulations will be conducted using the GTKWave simulator to verify the design.
+
+The RISC-V processor was initially designed and created using the TL-Verilog language within the Makerchip IDE. For FPGA implementation, this design needed to be compiled and transformed into Verilog, a process accomplished using the SandPiper-SaaS compiler.
+
+To prepare the design for FPGA synthesis and simulation, several adjustments were made to the TL-Verilog code:
+
+Top Module Integration: The top module from Shivani Shah's GitHub repository was integrated into the TL-Verilog code to ensure compatibility and completeness of the design.
+
+Case Inequality Corrections: Any inequalities within the case statements were corrected to avoid potential synthesis issues.
+
+Input Cleanup: Instances of 'x' in the input signals were removed. Full, valid input values were provided to avoid errors during simulation and to ensure accurate operation.
+
+Memory Line Adjustment: The CPU visualization (cpuviz) memory line was commented out, as it was not required for the synthesis process and could potentially lead to simulation errors.
+
+After making these adjustments, a pre-synthesis simulation was carried out using the GTKWave simulator to verify the design's functionality before proceeding to the synthesis stage.
 
 
 
