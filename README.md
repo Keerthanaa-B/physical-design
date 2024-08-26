@@ -886,6 +886,69 @@ Memory Line Adjustment: The CPU visualization (cpuviz) memory line was commented
 
 After making these adjustments, a pre-synthesis simulation was carried out using the GTKWave simulator to verify the design's functionality before proceeding to the synthesis stage.
 
+## Step by step procedure
 
+#### 1. Install Required Packages: Begin by installing the necessary packages using pip:
+
+```
+sudo apt install make python python3 python3-pip git iverilog gtkwave
+cd ~
+sudo apt-get install python3-venv
+python3 -m venv .venv
+source ~/.venv/bin/activate
+pip3 install pyyaml click sandpiper-saas
+```
+#### 2. Clone the github repo: clone this repo containing VSDBabySoC design files and testbench. Move into the VSDBabySoc directory
+
+```
+git clone https://github.com/manili/VSDBabySoC.git
+cd /home/vsduser/VSDBabySoC/
+```
+#### 3. Replace the rvmyth.tlv file in the VSDBabySoC Directory: replace in src/module with the rvmth.tlv.
+
+#### 4. Converting .tlv to .v using the SandPiper-SaaS Compiler:
+    The RISC-V processor code was initially written in TL-Verilog (.tlv), a high-level hardware description language. To 
+    translate the TL-Verilog definition of rvmyth into a low-level Verilog (.v) definition, we use the SandPiper-SaaS 
+    compiler.
+```
+    sandpiper-saas -i ./src/module/*.tlv -o rvmyth.v --bestsv --noline -p verilog --outdir ./src/module/
+```
+
+#### 5. Compiling and Simulating the RISC-V Design
+
+Before executing the following command, ensure you first create a directory named output. This directory will be used to store the pre-synthesis files generated during the compilation and simulation process.
+
+```
+mkdir output
+iverilog -o output/pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module
+```
+#### 6. The result of the simulation (i.e. pre_synth_sim.vcd) will be stored in the output/pre_synth_sim directory.
+
+```
+cd output
+./pre_synth_sim.out
+```
+
+#### 7. To open the .vcd simulation file through GTKWave simulation tool.
+
+```
+gtkwave pre_synth_sim.vcd
+```
+![WhatsApp Image 2024-08-27 at 00 14 43_6fa636d5](https://github.com/user-attachments/assets/8c5c64b3-31df-47ef-b829-5983069b2e53)
+
+
+![WhatsApp Image 2024-08-27 at 00 14 43_5bb93262](https://github.com/user-attachments/assets/e883c238-1322-4582-86b3-7a3247a9314c)
+
+
+![WhatsApp Image 2024-08-27 at 00 14 42_0babff5d](https://github.com/user-attachments/assets/0a2f457a-5136-4450-a098-5aa459490d4c)
+
+
+![Screenshot 2024-08-21 214335](https://github.com/user-attachments/assets/95d115f9-7a2b-47f9-ab85-78fb6b14612a)
+
+
+![Screenshot 2024-08-26 234950](https://github.com/user-attachments/assets/b30d36f1-1632-42e8-bf75-393dee85b245)
+
+
+![Screenshot 2024-08-26 235414](https://github.com/user-attachments/assets/5f523211-dbe3-4f2b-af84-576b3bc39c9e)
 
 
