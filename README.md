@@ -1040,9 +1040,6 @@ $ gtkwave pre_synth_sim.vcd
 
 #### PLL input and DAC Output
 
-  ![Screenshot from 2024-09-02 23-54-33](https://github.com/user-attachments/assets/d28ca9ee-1d26-4e2b-9c20-fe4d3292766a)
-
-
-![Screenshot from 2024-09-03 00-01-42](https://github.com/user-attachments/assets/73d48cd2-26db-431e-af0c-4876cf3802e5)
+  ![Screenshot from 2024-09-03 00-07-57](https://github.com/user-attachments/assets/2be25f89-bbbb-4cef-90d1-f3261ee1d535)
 
 
