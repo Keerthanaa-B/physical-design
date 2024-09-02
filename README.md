@@ -965,7 +965,8 @@ gtkwave pre_synth_sim.vcd
     sudo apt-get update
     sudo apt-get install iverilog
   ```
-![Screenshot from 2024-09-02 20-39-01](https://github.com/user-attachments/assets/e645134f-ed18-4ca2-9463-6ddb910f7341)
+![Screenshot from 2024-09-02 20-39-39](https://github.com/user-attachments/assets/dffd79db-3c70-433c-819e-f016c3e6f00a)
+
 
 
 
@@ -975,6 +976,8 @@ Steps to install gtkwave<br/>
 sudo apt-get update
 sudo apt install gtkwave
 ```
+![Screenshot from 2024-09-02 20-39-01](https://github.com/user-attachments/assets/e645134f-ed18-4ca2-9463-6ddb910f7341)
+
 
 
 * Yosys<br/>
