@@ -966,9 +966,7 @@ gtkwave pre_synth_sim.vcd
     sudo apt-get install iverilog
   ```
 
-![Screenshot from 2024-09-02 20-40-12](https://github.com/user-attachments/assets/f96f4e84-ed45-4769-9a5f-3c93f155c848)
-
-
+![Screenshot from 2024-09-02 20-37-01](https://github.com/user-attachments/assets/d872e03c-c598-4cfe-8df6-eaf9ee358d43)
 
 
 * Gtkwave<br/>
