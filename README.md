@@ -968,7 +968,6 @@ gtkwave pre_synth_sim.vcd
 
 ![Screenshot from 2024-09-02 20-40-12](https://github.com/user-attachments/assets/f96f4e84-ed45-4769-9a5f-3c93f155c848)
 
-![Screenshot from 2024-09-02 21-45-20](https://github.com/user-attachments/assets/13b053fa-5922-4881-b136-388bb16ba9cd)
 
 
 
@@ -987,7 +986,6 @@ sudo apt install gtkwave
 Steps to install yosys<br/>
 ```
 
-![Screenshot from 2024-09-02 20-37-01](https://github.com/user-attachments/assets/c0523b50-6d26-41ce-ab47-90a713f16eff)
 
 
 sudo apt-get update
@@ -1002,6 +1000,9 @@ sudo apt-get update
  make 
  sudo make install
 ```
+
+![Screenshot from 2024-09-02 20-40-12](https://github.com/user-attachments/assets/f96f4e84-ed45-4769-9a5f-3c93f155c848)
+
 
 * OpenSTA <br/>
 Steps to install opensta<br/>
