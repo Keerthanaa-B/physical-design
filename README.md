@@ -965,7 +965,8 @@ gtkwave pre_synth_sim.vcd
     sudo apt-get update
     sudo apt-get install iverilog
   ```
-![Screenshot from 2024-09-02 21-45-20](https://github.com/user-attachments/assets/7382ba7a-51be-4aab-8fb1-7c40e25f1b90)
+![Screenshot from 2024-09-02 20-39-01](https://github.com/user-attachments/assets/e645134f-ed18-4ca2-9463-6ddb910f7341)
+
 
 
 * Gtkwave<br/>
@@ -974,9 +975,7 @@ Steps to install gtkwave<br/>
 sudo apt-get update
 sudo apt install gtkwave
 ```
-![7](https://github.com/user-attachments/assets/8a6b2e75-31f4-453f-8c78-750d4493d856)
 
-![image](https://github.com/user-attachments/assets/34a4443f-1e32-4a92-a28a-5c624c796475)
 
 * Yosys<br/>
 Steps to install yosys<br/>
@@ -993,11 +992,6 @@ sudo apt-get update
  make 
  sudo make install
 ```
-![2](https://github.com/user-attachments/assets/09ff1666-8b6b-4741-98e1-6596b69aefa6)
-![4](https://github.com/user-attachments/assets/140c2e1f-8de2-4890-9191-471a9e3a9dff)
-![5](https://github.com/user-attachments/assets/3da8edbb-66f7-4f14-9c2b-9b5869471070)
-![6](https://github.com/user-attachments/assets/37fdde42-bfb4-4142-aa9d-d52b0f69a3e7)
-![8](https://github.com/user-attachments/assets/68ee80c6-6bb3-450e-b1e6-c428b50b12ca)
 
 * OpenSTA <br/>
 Steps to install opensta<br/>
@@ -1010,8 +1004,7 @@ sudo apt-get install cmake clang gcctcl swig bison flex
 cmake ..
 make
 ```
-![13](https://github.com/user-attachments/assets/9fb5171d-353f-4bce-ad58-4cc9ad94c9ce)
-![image](https://github.com/user-attachments/assets/d4e51373-2894-42cb-a7e3-58e8bf304e74)
+![Screenshot from 2024-09-02 21-45-20](https://github.com/user-attachments/assets/7382ba7a-51be-4aab-8fb1-7c40e25f1b90)
 
 
 
