@@ -1016,4 +1016,32 @@ make
 ![Screenshot from 2024-09-02 21-45-20](https://github.com/user-attachments/assets/7382ba7a-51be-4aab-8fb1-7c40e25f1b90)
 
 
+## TASK 2
+#### Downloading the files from https://github.com/Subhasis-Sahu/BabySoC_Simulation/ link and editing the vsdbabysoc top level so that it links to my rvmyth code and produce the output for that.
+
+Converting a digital output from a CPU into an analog signal using a DAC (Digital-to-Analog Converter) and PLL (Phase-Locked Loop)
+
+**1. Clone the repository**
+```
+ $ cd
+ $ git clone https://github.com/Subhasis-Sahu/BabySoC_Simulation
+```
+
+```
+$ iverilog -o ./pre_synth_sim.out -DPRE_SYNTH_SIM src/module/testbench.v -I src/include -I src/module/
+$ ./pre_synth_sim.out
+$ gtkwave pre_synth_sim.vcd
+```
+
+![Screenshot from 2024-09-02 23-58-40](https://github.com/user-attachments/assets/65a65650-c9f3-4088-b21b-a8699d967d42)
+
+
+
+
+#### PLL input and DAC Output
+
+  ![Screenshot from 2024-09-02 23-54-33](https://github.com/user-attachments/assets/d28ca9ee-1d26-4e2b-9c20-fe4d3292766a)
+
+
+
 
