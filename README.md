@@ -1125,6 +1125,22 @@ $ gtkwave pre_synth_sim.vcd
 
 
 
+### DAY 3 : Below are the snapshots of the tasks done in the day 3
+
+
+![Screenshot from 2024-10-21 12-52-55](https://github.com/user-attachments/assets/6582506f-fed9-4bd0-8cd3-c3343dbcb13d)
+![Screenshot from 2024-10-21 12-53-40](https://github.com/user-attachments/assets/eb9cc25c-4a19-492c-9ad7-1569f38a4c74)
+![Screenshot from 2024-10-21 12-53-47](https://github.com/user-attachments/assets/0578b655-d0e9-4b6b-91dc-c36e8d2f843f)
+![Screenshot from 2024-10-21 12-53-55](https://github.com/user-attachments/assets/c902aac7-f820-41ae-acde-30c718c47058)
+![Screenshot from 2024-10-21 12-55-47](https://github.com/user-attachments/assets/3faa99ae-fdbd-4b5e-9b6e-54fe9950ea00)
+![Screenshot from 2024-10-21 12-57-45](https://github.com/user-attachments/assets/1e1c78ca-d548-4269-88ab-b9a4c271dcb5)
+![Screenshot from 2024-10-21 12-58-03](https://github.com/user-attachments/assets/418ba6e5-6695-468d-86ca-e3f5d03297a7)
+![Screenshot from 2024-10-21 12-58-21](https://github.com/user-attachments/assets/2b9db2bf-7551-4b0c-928f-a5888852a179)
+
+
+
+
+
 
 
 
