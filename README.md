@@ -1047,3 +1047,28 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-09-03 16-15-35](https://github.com/user-attachments/assets/c2808d21-f0a5-4471-98e4-98b2d0ecd476)
 
 
+# LAB 10
+
+## RTL DESIGN AND SYNTHESIS USING SKY180 TECHNOLOGY
+
+### DAY 1 : Below are the snapshots of the tasks done in the day 1
+
+
+![Screenshot from 2024-10-21 09-45-31](https://github.com/user-attachments/assets/8d3a4f2c-8f3a-4d05-b9da-b448f9408450)
+![Screenshot from 2024-10-21 09-49-31](https://github.com/user-attachments/assets/691b4df3-ca98-4550-895c-6e20e3c420d3)
+![Screenshot from 2024-10-21 09-54-29](https://github.com/user-attachments/assets/3a6a6fc8-d8f2-435a-b593-ed12c183dd6c)
+![Screenshot from 2024-10-21 09-54-42](https://github.com/user-attachments/assets/3dcae30c-af95-4802-bf32-895118132c9e)
+![Screenshot from 2024-10-21 09-58-11](https://github.com/user-attachments/assets/239643f6-e173-4f2c-b387-6cae7d9bbbf8)
+![Screenshot from 2024-10-21 09-58-27](https://github.com/user-attachments/assets/48e13428-0e8b-4280-a06e-79ce1dfca2ef)
+![Screenshot from 2024-10-21 10-10-25](https://github.com/user-attachments/assets/bddbd651-2f21-41ba-831b-013cbd755c40)
+![Screenshot from 2024-10-21 10-13-36](https://github.com/user-attachments/assets/8f3d4290-6123-4dd1-a633-8fea2967e4fb)
+![Screenshot from 2024-10-21 10-15-32](https://github.com/user-attachments/assets/6a28ba21-0740-48e8-a130-4fc79b175ec5)
+![Screenshot from 2024-10-21 10-17-46](https://github.com/user-attachments/assets/0a57887e-97b5-4f4b-b31b-69103e01695b)
+![Screenshot from 2024-10-21 10-20-37](https://github.com/user-attachments/assets/d1a8373b-6a35-473b-9eb1-fbdcf0bf6f7f)
+
+
+
+
+
+
+
