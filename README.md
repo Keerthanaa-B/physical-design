@@ -1067,6 +1067,27 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-10-21 10-20-37](https://github.com/user-attachments/assets/d1a8373b-6a35-473b-9eb1-fbdcf0bf6f7f)
 
 
+### DAY 2 : Below are the snapshots of the tasks done in the day 2
+
+![Screenshot from 2024-10-21 10-49-13](https://github.com/user-attachments/assets/39272ed6-8963-4b28-8760-794652aaf2ab)
+![Screenshot from 2024-10-21 10-49-22](https://github.com/user-attachments/assets/d541512e-8b5a-419a-b257-d2b40062a731)
+![Screenshot from 2024-10-21 10-49-31](https://github.com/user-attachments/assets/c4b0902d-949e-4d48-8635-e8a2c7725125)
+![Screenshot from 2024-10-21 10-52-41](https://github.com/user-attachments/assets/54065fd0-a95b-4b6b-aee5-20aa3887551c)
+![Screenshot from 2024-10-21 10-55-23](https://github.com/user-attachments/assets/2ffcd462-860a-4170-a734-319ea7e2cb0b)
+![Screenshot from 2024-10-21 10-56-31](https://github.com/user-attachments/assets/2fdd07ed-ca54-4ab3-9ca3-64499854a02a)
+![Screenshot from 2024-10-21 10-56-34](https://github.com/user-attachments/assets/b1da3eb4-4ea6-409e-a714-d271a702a80a)
+![Screenshot from 2024-10-21 10-59-11](https://github.com/user-attachments/assets/9bb17bcd-f715-4e43-9eca-b9da15993e48)
+![Screenshot from 2024-10-21 10-59-38](https://github.com/user-attachments/assets/30a4a3b0-d292-4ad3-b7a0-9e7193a72536)
+![Screenshot from 2024-10-21 11-01-48](https://github.com/user-attachments/assets/31b4414a-8a62-4888-82ec-cebaa3f928bc)
+![Screenshot from 2024-10-21 11-01-51](https://github.com/user-attachments/assets/e5c95821-4ef3-4d0e-ba3f-10511942f09f)
+![Screenshot from 2024-10-21 11-09-59](https://github.com/user-attachments/assets/ca5e87ae-b87f-4f1a-9764-e90ce44179b5)
+![Screenshot from 2024-10-21 11-10-02](https://github.com/user-attachments/assets/c96eba44-9e74-452a-81b8-fefb5769d962)
+![Screenshot from 2024-10-21 11-11-58](https://github.com/user-attachments/assets/b6c8fe48-9a0a-4984-952e-2a61cec4ea52)
+![Screenshot from 2024-10-21 11-14-12](https://github.com/user-attachments/assets/de04420b-7517-4c08-9817-bf034af187c4)
+![Screenshot from 2024-10-21 11-17-27](https://github.com/user-attachments/assets/e95cfb2c-0040-408d-9682-da90b0c0d95a)
+![Screenshot from 2024-10-21 11-17-39](https://github.com/user-attachments/assets/40cdf035-8ed0-4489-b59c-f0a6eb85bf01)
+![Screenshot from 2024-10-21 11-18-23](https://github.com/user-attachments/assets/6cae2f6a-b472-4d9d-ab55-8547e5add866)
+
 
 
 
