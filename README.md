@@ -1106,6 +1106,12 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-10-21 11-54-11](https://github.com/user-attachments/assets/a9ef7987-6ff1-4a86-b481-4f69457ac2b3)
 ![Screenshot from 2024-10-21 11-54-18](https://github.com/user-attachments/assets/efbc067f-dae0-4605-a1ed-52b5ad126a1f)
 ![Screenshot from 2024-10-21 11-55-08](https://github.com/user-attachments/assets/975eb87f-ec94-4493-8117-27e6f3486573)
+![Screenshot from 2024-10-21 12-01-49](https://github.com/user-attachments/assets/de075dfb-bc79-478e-9444-205bd46e8ae7)
+![Screenshot from 2024-10-21 12-03-52](https://github.com/user-attachments/assets/1e9b6561-932a-4e01-b85e-b599ab3aa7d8)
+![Screenshot from 2024-10-21 12-04-30](https://github.com/user-attachments/assets/9ebe591b-7f56-4e56-94a4-e463f33c14eb)
+![Screenshot from 2024-10-21 12-04-46](https://github.com/user-attachments/assets/1078416e-4aa7-4e0e-8754-9385bd080347)
+![Screenshot from 2024-10-21 12-05-36](https://github.com/user-attachments/assets/83422afa-5f36-4ed6-96d6-2018099f6cee)
+
 
 
 
