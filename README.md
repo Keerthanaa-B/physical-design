@@ -1203,6 +1203,27 @@ $ gtkwave pre_synth_sim.vcd
 
 
 
+### DAY 4 : Below are the snapshots of the tasks done in the day 4
+
+
+
+![Screenshot from 2024-10-21 15-28-21](https://github.com/user-attachments/assets/63173734-8530-407b-a728-f525cc40c4ef)
+![Screenshot from 2024-10-21 15-28-36](https://github.com/user-attachments/assets/62d2925f-5668-4360-a076-60a117802d24)
+![Screenshot from 2024-10-21 15-28-47](https://github.com/user-attachments/assets/c647c116-a1b4-4ba9-b349-9a013c277946)
+![Screenshot from 2024-10-21 15-31-58](https://github.com/user-attachments/assets/8a23abb3-8bf0-4515-b20b-ee8175d192b3)
+![Screenshot from 2024-10-21 15-32-02](https://github.com/user-attachments/assets/c052465c-29b5-4520-a145-7f423e36bcbe)
+![Screenshot from 2024-10-21 15-34-42](https://github.com/user-attachments/assets/a5b455a1-61af-4ab1-9a02-14e3b735fab2)
+![Screenshot from 2024-10-21 15-34-46](https://github.com/user-attachments/assets/67b0089d-73fb-4903-bac8-4e428df20956)
+![Screenshot from 2024-10-21 15-35-10](https://github.com/user-attachments/assets/a84ce0f8-876a-4696-b8ae-481ac036b98e)
+![Screenshot from 2024-10-21 15-37-23](https://github.com/user-attachments/assets/71cc9b11-2618-4273-a78d-81b0d44286e5)
+![Screenshot from 2024-10-21 15-59-16](https://github.com/user-attachments/assets/f9f2d5f4-29c3-46a0-bbf9-c037d06b2e8e)
+![Screenshot from 2024-10-21 15-59-38](https://github.com/user-attachments/assets/ec064451-9c9a-45aa-b791-bc3e04cea574)
+![Screenshot from 2024-10-21 16-00-43](https://github.com/user-attachments/assets/55fc5916-1ea8-4b22-b334-cda1f92c898e)
+
+
+
+
+
 
 
 
