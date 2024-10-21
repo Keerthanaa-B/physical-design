@@ -1098,6 +1098,15 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-10-21 11-43-23](https://github.com/user-attachments/assets/485d2833-336c-4559-bf42-155ca93397a9)
 ![Screenshot from 2024-10-21 11-43-30](https://github.com/user-attachments/assets/671b259d-d25d-45a3-b585-70ad430de69c)
 ![Screenshot from 2024-10-21 11-43-42](https://github.com/user-attachments/assets/ba8dcb4d-9233-4591-b896-234ce1494915)
+![Screenshot from 2024-10-21 11-48-18](https://github.com/user-attachments/assets/1563ae6b-5a3a-4114-b2f4-c36be062e884)
+![Screenshot from 2024-10-21 11-48-24](https://github.com/user-attachments/assets/9f4f9319-76a5-4860-a344-54976460b32d)
+![Screenshot from 2024-10-21 11-49-48](https://github.com/user-attachments/assets/3253c1f3-468f-43ac-9b59-499317814eac)
+![Screenshot from 2024-10-21 11-52-03](https://github.com/user-attachments/assets/a58254b1-05e1-4e2c-84de-511751808c4c)
+![Screenshot from 2024-10-21 11-52-45](https://github.com/user-attachments/assets/bf980d65-a22a-454c-871a-8324b0913984)
+![Screenshot from 2024-10-21 11-54-11](https://github.com/user-attachments/assets/a9ef7987-6ff1-4a86-b481-4f69457ac2b3)
+![Screenshot from 2024-10-21 11-54-18](https://github.com/user-attachments/assets/efbc067f-dae0-4605-a1ed-52b5ad126a1f)
+![Screenshot from 2024-10-21 11-55-08](https://github.com/user-attachments/assets/975eb87f-ec94-4493-8117-27e6f3486573)
+
 
 
 
