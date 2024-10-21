@@ -1136,6 +1136,24 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-10-21 12-57-45](https://github.com/user-attachments/assets/1e1c78ca-d548-4269-88ab-b9a4c271dcb5)
 ![Screenshot from 2024-10-21 12-58-03](https://github.com/user-attachments/assets/418ba6e5-6695-468d-86ca-e3f5d03297a7)
 ![Screenshot from 2024-10-21 12-58-21](https://github.com/user-attachments/assets/2b9db2bf-7551-4b0c-928f-a5888852a179)
+![Screenshot from 2024-10-21 13-04-34](https://github.com/user-attachments/assets/959a84b9-7fd1-4671-8e48-889e89b20fa7)
+![Screenshot from 2024-10-21 13-04-57](https://github.com/user-attachments/assets/ce950acc-d5a1-499e-8ab7-8839d5faaeb6)
+![Screenshot from 2024-10-21 13-05-31](https://github.com/user-attachments/assets/089c06a9-e641-45e3-bd79-fd9cfcb954d8)
+![Screenshot from 2024-10-21 13-07-02](https://github.com/user-attachments/assets/6c939797-3f59-40e1-9d19-756f749aea88)
+![Screenshot from 2024-10-21 13-58-03](https://github.com/user-attachments/assets/b5cd48dc-cfac-44b8-9ff1-c9685e260f35)
+![Screenshot from 2024-10-21 13-58-08](https://github.com/user-attachments/assets/cc2a9a6f-a413-4852-b6f4-1364dc6908ba)
+![Screenshot from 2024-10-21 13-58-42](https://github.com/user-attachments/assets/0986013b-ec42-447e-a9ad-337c4079b135)
+![Screenshot from 2024-10-21 13-59-15](https://github.com/user-attachments/assets/c46b5715-7247-4a57-b513-fd9bf9c9b77a)
+![Screenshot from 2024-10-21 13-59-58](https://github.com/user-attachments/assets/3ffb035f-8286-407c-a197-3442e0d95bab)
+![Screenshot from 2024-10-21 14-00-12](https://github.com/user-attachments/assets/b30512fc-a34d-448b-a735-d1966d5a4617)
+![Screenshot from 2024-10-21 14-00-21](https://github.com/user-attachments/assets/da2f5fde-4530-4fb9-956c-f912b8df58e4)
+![Screenshot from 2024-10-21 14-00-37](https://github.com/user-attachments/assets/b3bda4d1-c1bb-49e1-9698-a15d29c44cbd)
+![Screenshot from 2024-10-21 14-10-47](https://github.com/user-attachments/assets/f7143a67-1591-49ba-b980-d9f67f24bd4f)
+![Screenshot from 2024-10-21 14-11-10](https://github.com/user-attachments/assets/425dd841-0650-45fb-b7b3-f2b1db27d209)
+![Screenshot from 2024-10-21 14-11-26](https://github.com/user-attachments/assets/d2005b50-8363-461f-b072-f19caef75172)
+![Screenshot from 2024-10-21 14-11-38](https://github.com/user-attachments/assets/f92dbd86-8881-4991-8534-97c300ecd5a2)
+![Screenshot from 2024-10-21 14-13-12](https://github.com/user-attachments/assets/5045ba73-e79e-4ddd-9514-1b8fcce5c6a4)
+
 
 
 
