@@ -1238,6 +1238,26 @@ $ gtkwave pre_synth_sim.vcd
 
 
 
+# LAB 11
+
+## Synthesis of RISCV verilog file and comparing the result
+
+### the snapshots of the task are given below
+
+![Screenshot from 2024-10-23 19-14-21](https://github.com/user-attachments/assets/fe0f73f8-283d-4820-887c-3ef75e965e66)
+![Screenshot from 2024-10-23 19-14-31](https://github.com/user-attachments/assets/e8482d37-19a9-423c-b992-06e4fe94d582)
+![Screenshot from 2024-10-23 19-14-55](https://github.com/user-attachments/assets/50c01a38-015d-412f-89d3-f39dea64adff)
+![Screenshot from 2024-10-23 19-15-04](https://github.com/user-attachments/assets/acbdcd1b-5767-425d-9ab6-b7084ed25985)
+![Screenshot from 2024-10-23 19-18-28](https://github.com/user-attachments/assets/28cce921-d45f-421b-ad76-d91f2edf5328)
+![Screenshot from 2024-10-23 19-18-45](https://github.com/user-attachments/assets/0128db57-c63f-4f4e-9de2-e23cb35464f5)
+![Screenshot from 2024-10-23 19-19-30](https://github.com/user-attachments/assets/e8100e60-5ec9-474f-b9c6-935d40c7ff05)
+![synthesis](https://github.com/user-attachments/assets/0c3c3adc-b7be-40fa-b2fe-cccdd7cefc61)
+![Screenshot from 2024-10-23 19-20-48](https://github.com/user-attachments/assets/a37261a8-16cb-46d6-a6da-417cdcd22a50)
+![final waveform](https://github.com/user-attachments/assets/97f1358a-5aa5-4090-8044-3d8dab909cf0)
+
+
+
+
 
 
 
