@@ -1253,7 +1253,17 @@ $ gtkwave pre_synth_sim.vcd
 ![Screenshot from 2024-10-23 19-19-30](https://github.com/user-attachments/assets/e8100e60-5ec9-474f-b9c6-935d40c7ff05)
 ![synthesis](https://github.com/user-attachments/assets/0c3c3adc-b7be-40fa-b2fe-cccdd7cefc61)
 ![Screenshot from 2024-10-23 19-20-48](https://github.com/user-attachments/assets/a37261a8-16cb-46d6-a6da-417cdcd22a50)
+
+### snapshot of the result before synthesis
+
+![Screenshot from 2024-09-03 16-15-35](https://github.com/user-attachments/assets/c2808d21-f0a5-4471-98e4-98b2d0ecd476)
+
+### snapshot of the result after synthesis of riscv verilog file
+
+
 ![final waveform](https://github.com/user-attachments/assets/97f1358a-5aa5-4090-8044-3d8dab909cf0)
+
+### by comparing the result we can conclude that bot are same.
 
 
 
