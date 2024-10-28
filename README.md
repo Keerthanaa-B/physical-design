@@ -1286,7 +1286,7 @@ $ gtkwave pre_synth_sim.vcd
 
 #### Hold time slack
 
-![5](https://github.com/user-attachments/assets/7346a2cd-d61d-4809-ac0f-7de6add4dea8)
+![5](https://github.com/user-attachments/assets/e6884aea-6e75-442d-947c-07aaffad3c0b)
 
 
 
