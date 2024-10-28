@@ -1289,6 +1289,9 @@ $ gtkwave pre_synth_sim.vcd
 ![5](https://github.com/user-attachments/assets/e6884aea-6e75-442d-947c-07aaffad3c0b)
 
 
+### By the about snapshots we can conclude that setup time and hold timing constraints are met.
+
+
 
 
 
