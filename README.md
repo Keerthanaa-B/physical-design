@@ -1263,7 +1263,33 @@ $ gtkwave pre_synth_sim.vcd
 
 ![final waveform](https://github.com/user-attachments/assets/97f1358a-5aa5-4090-8044-3d8dab909cf0)
 
-### by comparing the result we can conclude that bot are same.
+### by comparing the result we can conclude that bot are same. 
+
+
+# LAB 12
+
+## STATIC TIMING ANALYSIS
+
+### the snapshots of the task are given below
+#### Commands used to do the task
+![1](https://github.com/user-attachments/assets/ddb41808-1d0c-491a-badf-93a30851e42c)
+
+#### Static timing analysis configuration file
+
+![2](https://github.com/user-attachments/assets/49285da5-2140-4d22-b8f1-15c521c0c0c3)
+
+![3](https://github.com/user-attachments/assets/892ba0f6-9c6c-406a-949e-c09dcf3cc6fd)
+
+#### setup time slack
+
+![4](https://github.com/user-attachments/assets/805e784d-913b-4680-9fcb-24965dd5134d)
+
+#### Hold time slack
+
+![5](https://github.com/user-attachments/assets/7346a2cd-d61d-4809-ac0f-7de6add4dea8)
+
+
+
 
 
 
