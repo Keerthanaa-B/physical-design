@@ -1292,6 +1292,48 @@ $ gtkwave pre_synth_sim.vcd
 ### By the about snapshots we can conclude that setup time and hold timing constraints are met.
 
 
+# LAB 13
+
+## SYNTHESIS OF BABYSOC DESIGN USING DIFFERENT PVT CORNER LIBRARY FILES
+
+### In this lab, we will be checking for the worst setup/hold slacks using different PVT Corner library files.
+
+   ### PVT (Process, Voltage, Temperature) are the three key factors that impact the performance and behavior of integrated circuits in VLSI design. Here is a summary of how each of these factors affects circuit design:
+
+   ### Process (P):
+   ### Process variation refers to deviations in the semiconductor fabrication process, such as variations in impurity concentration, oxide thickness, and transistor dimensions. These process variations can cause changes in transistor parameters like threshold voltage, mobility, and current drive, which in turn impact the circuit delay and performance. Circuits designed with a "fast" process will have lower delays, while "slow" process corners will have higher delays.
+   ### Voltage (V):
+   ### The supply voltage of the chip can deviate from the optimal value during operation due to factors like noise, IR drop, and voltage regulator variations. Higher supply voltage leads to increased current and faster charging/discharging of capacitances, resulting in lower delays. Lower voltage has the opposite effect.
+   ### Temperature (T):
+   The operating temperature of the chip can vary widely depending on the environment and power dissipation within the chip. Higher temperatures generally decrease carrier mobility, leading to increased delays.
+
+   We must ensure that our design is functioning properly for all PVT corners. For this, we use STA using the following procedure.
+    We run the script shown below. This script reads in all the library files one by one from the specified directory and is used on our VSDBabySoC design. The constraints file from the earlier lab is also read(clock-11.6 ns with 5% uncertainity for setup and 8% uncertainity for hold).
+    
+
+ 
+![tcl_secript](https://github.com/user-attachments/assets/70c2a608-6edb-4d4a-b584-09ab16da2cd7)
+
+
+ ![sdc](https://github.com/user-attachments/assets/b6d4fd0d-0640-4a5e-8150-ec3523a5f498)
+
+ the report generated for different library files
+
+ ![excel_sheet](https://github.com/user-attachments/assets/e233b1ff-b9ca-4577-b37f-11be6d53c31d)
+
+ WNS
+
+ ![wns](https://github.com/user-attachments/assets/8cc6af57-2de6-44c1-816a-6af86cfe4a9a)
+
+ WHS
+
+ ![whs](https://github.com/user-attachments/assets/ac718592-1166-48a2-b4ba-d9c2bee9021d)
+
+
+
+
+
+
 
 
 
