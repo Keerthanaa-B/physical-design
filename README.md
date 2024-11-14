@@ -1341,10 +1341,68 @@ Section 1 tasks:-
     Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
     Calculate the flop ratio.
 
-F l o p   R a t i o = N u m b e r   o f   D   F l i p   F l o p s T o t a l   N u m b e r   o f   C e l l s
-P e r c e n t a g e   o f   D F F ′ s = F l o p   R a t i o ∗ 100
+```math
+Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
+```
+```math
+Percentage\ of\ DFF's = Flop\ Ratio * 100
+```
 
-    All section 1 logs, reports and results can be found in following run folder:
+   All section 1 logs, reports and results can be found in following run folder:
+
+   #### 1. Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
+
+Commands to invoke the OpenLANE flow and perform synthesis
+
+```bash
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+# Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+docker
+```
+```tcl
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+```
+
+Screenshots of running each commands
+
+  ![openlane](https://github.com/user-attachments/assets/a674b5c5-22db-4e3f-8dcc-b2c0a55c317b)
+  ![preparation](https://github.com/user-attachments/assets/47b511d5-2de5-4df2-bca0-8ff5b6d76a4c)
+  ![synthesis_complete](https://github.com/user-attachments/assets/353dcbfb-4dd2-41e2-9d21-0a73df59ceaf)
+
+
+  #### 2. Calculate the flop ratio.
+
+Screenshots of synthesis statistics report file with required values
+
+  ![dff_count](https://github.com/user-attachments/assets/f4f6a071-b775-43ed-b9cb-2ae8cf2e4b6a)
+  ![report_files_open](https://github.com/user-attachments/assets/c63a91c6-128f-4f5d-a9e5-668131a1fa18)
+  ![report_file_2](https://github.com/user-attachments/assets/fd46b4ed-5d44-4d84-9e8c-34405d3a6914)
+  ![report_file](https://github.com/user-attachments/assets/450fc0df-d819-425f-9c75-364ee6d3aa56)
+
+  
+
+
+
+
 
 
 
