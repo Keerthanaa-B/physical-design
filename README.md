@@ -1395,12 +1395,341 @@ Screenshots of synthesis statistics report file with required values
 
   ![dff_count](https://github.com/user-attachments/assets/f4f6a071-b775-43ed-b9cb-2ae8cf2e4b6a)
   ![report_files_open](https://github.com/user-attachments/assets/c63a91c6-128f-4f5d-a9e5-668131a1fa18)
+   ![report_file](https://github.com/user-attachments/assets/450fc0df-d819-425f-9c75-364ee6d3aa56)
   ![report_file_2](https://github.com/user-attachments/assets/fd46b4ed-5d44-4d84-9e8c-34405d3a6914)
-  ![report_file](https://github.com/user-attachments/assets/450fc0df-d819-425f-9c75-364ee6d3aa56)
+
 
   
+ Calculation of Flop Ratio and DFF % from synthesis statistics report file
+
+```math
+Flop\ Ratio = \frac{1613}{14876} = 0.108429685
+```
+```math
+Percentage\ of\ DFF's = 0.108429685 * 100 = 10.84296854\ \%
+```
+```
+
+## Day 2 - Good floorplan vs bad floorplan and introduction to library cells 
+  
+
+### Implementation
+
+Day 2 tasks:- 
+1. Run 'picorv32a' design floorplan using OpenLANE flow and generate necessary outputs.
+2. Calculate the die area in microns from the values in floorplan def.
+3. Load generated floorplan def in magic tool and explore the floorplan.
+4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
+5. Load generated placement def in magic tool and explore the placement.
+
+```math
+Area\ of\ die\ in\ microns = Die\ width\ in\ microns * Die\ height\ in\ microns
+```
+
+#### 1. Run 'picorv32a' design floorplan using OpenLANE flow and generate necessary outputs.
+
+Commands to invoke the OpenLANE flow and perform floorplan
+
+```
+# Change directory to openlane flow directory
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# alias docker='docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) efabless/openlane:v0.21'
+# Since we have aliased the long command to 'docker' we can invoke the OpenLANE flow docker sub-system by just running this command
+docker
+```
+```
+# Now that we have entered the OpenLANE flow contained docker sub-system we can invoke the OpenLANE flow in the Interactive mode using the following command
+./flow.tcl -interactive
+
+# Now that OpenLANE flow is open we have to input the required packages for proper functionality of the OpenLANE flow
+package require openlane 0.9
+
+# Now the OpenLANE flow is ready to run any design and initially we have to prep the design creating some necessary files and directories for running a specific design which in our case is 'picorv32a'
+prep -design picorv32a
+
+# Now that the design is prepped and ready, we can run synthesis using following command
+run_synthesis
+
+# Now we can run floorplan
+run_floorplan
+```
+![floor_plan](https://github.com/user-attachments/assets/3f8f66b1-a526-4eac-818f-2a46642d6184)
+![floor_plan_2](https://github.com/user-attachments/assets/320eea17-9b51-45a9-b305-c8e2c9e81957)
 
 
+#### 2. Calculate the die area in microns from the values in floorplan def.
+
+Screenshot of contents of floorplan def
+
+![area_file_window](https://github.com/user-attachments/assets/66c5175d-2265-4e3c-a280-76f7d1887549)
+![floorplan_area_file](https://github.com/user-attachments/assets/4567c623-a218-4c31-8b13-070505d3a9e4)
+
+According to floorplan def
+```math
+1000\ Unit\ Distance = 1\ Micron
+```
+```math
+Die\ width\ in\ unit\ distance = 660685 - 0 = 660685
+```
+```math
+Die\ height\ in\ unit\ distance = 671405 - 0 = 671405
+```
+```math
+Distance\ in\ microns = \frac{Value\ in\ Unit\ Distance}{1000}
+```
+```math
+Die\ width\ in\ microns = \frac{660685}{1000} = 660.685\ Microns
+```
+```math
+Die\ height\ in\ microns = \frac{671405}{1000} = 671.405\ Microns
+```
+```math
+Area\ of\ die\ in\ microns = 660.685 * 671.405 = 443587.212425\ Square\ Microns
+```
+
+#### 3. Load generated floorplan def in magic tool and explore the floorplan.
+
+Commands to load floorplan def in magic in another terminal
+
+```bash
+# Change directory to path containing generated floorplan def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/10-11_12-14/results/floorplan/
+
+# Command to load the floorplan def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.floorplan.def &
+```
+
+![floor_magic_def](https://github.com/user-attachments/assets/f022d1aa-161a-42e4-ad81-3f71ed9df233)
+![floor_magic_def_2](https://github.com/user-attachments/assets/3c923139-9040-4432-807f-1a7cbc3beb59)
+![floor_magic_def_3_standard_cells](https://github.com/user-attachments/assets/0bfe9c08-2197-48fb-8d71-695a7112d045)
+
+
+#### 4. Run 'picorv32a' design congestion aware placement using OpenLANE flow and generate necessary outputs.
+
+Command to run placement
+
+```
+# Congestion aware placement by default
+run_placement
+```
+
+Screenshots of placement run![run_placement](https://github.com/user-attachments/assets/7c4aeb27-0b20-4909-a8cd-cb3dcc956030)
+![run_placement_1](https://github.com/user-attachments/assets/afed2dca-5fa4-467a-9a41-90e582954dd8)
+
+#### 5. Load generated placement def in magic tool and explore the placement.
+
+Commands to load placement def in magic in another terminal
+
+```bash
+# Change directory to path containing generated placement def
+cd Desktop/work/tools/openlane_working_dir/openlane/designs/picorv32a/runs/10-11_12-14/results/placement/
+
+# Command to load the placement def in magic tool
+magic -T /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.lef def read picorv32a.placement.def &
+```
+![run_placement_2](https://github.com/user-attachments/assets/4f868a6f-4aff-4760-a311-14fb2fa01625)
+![run_placement_3](https://github.com/user-attachments/assets/06b73b85-2c13-4ef8-b166-98975cb694a1)
+![run_placement_4](https://github.com/user-attachments/assets/52f1e861-eb04-43c8-9832-6d9531dbf40d)
+
+
+
+Commands to exit from current run
+
+```
+# Exit from OpenLANE flow
+exit
+
+# Exit from OpenLANE flow docker sub-system
+exit
+```
+
+## Day 3 - Design library cell using Magic Layout and ngspice characterization 
+
+### Implementation
+
+* Day 3 tasks:-
+1. Clone custom inverter standard cell design from github repository: [Standard cell design and characterization using OpenLANE flow](https://github.com/nickson-jose/vsdstdcelldesign).
+2. Load the custom inverter layout in magic and explore.
+3. Spice extraction of inverter in magic.
+4. Editing the spice model file for analysis through simulation.
+5. Post-layout ngspice simulations.
+6. Find problem in the DRC section of the old magic tech file for the skywater process and fix them.
+
+#### 1. Clone custom inverter standard cell design from github repository
+
+```bash
+# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Clone the repository with custom inverter design
+git clone https://github.com/nickson-jose/vsdstdcelldesign
+
+# Change into repository directory
+cd vsdstdcelldesign
+
+# Copy magic tech file to the repo directory for easy access
+cp /home/vsduser/Desktop/work/tools/openlane_working_dir/pdks/sky130A/libs.tech/magic/sky130A.tech .
+
+# Check contents whether everything is present
+ls
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
+```
+
+![1](https://github.com/user-attachments/assets/5354f739-9492-4a16-b0f6-23c12addf725)
+
+
+#### 2. Load the custom inverter layout in magic and explore.
+
+Screenshot of custom inverter layout in magic
+
+![2](https://github.com/user-attachments/assets/a17f4915-eb06-4ebb-93a8-0c5bacb80130)
+
+
+#### 3. Spice extraction of inverter in magic.
+
+Commands for spice extraction of the custom inverter layout to be used in tkcon window of magic
+
+```
+# Check current directory
+pwd
+
+# Extraction command to extract to .ext format
+extract all
+
+# Before converting ext to spice this command enable the parasitic extraction also
+ext2spice cthresh 0 rthresh 0
+
+# Converting to ext to spice
+ext2spice
+```
+![3](https://github.com/user-attachments/assets/d4c8ab54-976b-4378-b462-c7a61ce837a1)
+![4](https://github.com/user-attachments/assets/a4594e2b-9dae-4582-b456-09aa8bdc24ac)
+![4_1](https://github.com/user-attachments/assets/92c8c912-db08-4732-8592-c35524be8f28)
+![4_2](https://github.com/user-attachments/assets/757e57df-fa62-4c04-b839-c0d11bfc8282)
+![4_3](https://github.com/user-attachments/assets/0972c866-a6ea-4b7d-b4ed-1fa0e2ac649b)
+![4_4](https://github.com/user-attachments/assets/f3fa5747-9b35-4f0b-becf-ff311b1bd56f)
+![5](https://github.com/user-attachments/assets/ba0d2551-ba9b-4f8f-a04a-630acd73cdcb)
+![6](https://github.com/user-attachments/assets/b629728b-2250-44f0-9b2e-69989f58c401)
+
+
+
+#### 4. Editing the spice model file for analysis through simulation.
+
+Measuring unit distance in layout grid
+
+![7](https://github.com/user-attachments/assets/7b6b881f-bc3e-4bca-92c1-c9d3c54a2c37)
+
+
+Final edited spice file ready for ngspice simulation
+
+#### 5. Post-layout ngspice simulations.
+
+Commands for ngspice simulation
+
+```bash
+# Command to directly load spice file for simulation to ngspice
+ngspice sky130_inv.spice
+
+# Now that we have entered ngspice with the simulation spice file loaded we just have to load the plot
+plot y vs time a
+```
+
+Screenshots of ngspice run
+
+![8](https://github.com/user-attachments/assets/74774293-f63c-4c88-a399-2370f7ba510a)
+![9](https://github.com/user-attachments/assets/9d90dba9-613d-4c8f-95c0-bf5022038aed)
+![9_1](https://github.com/user-attachments/assets/fb30936f-264d-4d7c-a9d7-0ed7f3a5200b)
+![9_2](https://github.com/user-attachments/assets/c4c95e3e-9c2d-433b-801c-ac6f199a9187)
+![10](https://github.com/user-attachments/assets/8f1f006e-6c6d-44ac-8c25-bbf14bac7d12)
+![11](https://github.com/user-attachments/assets/7e9ce432-0beb-404b-9b3a-c6e9a5d63a8e)
+![12](https://github.com/user-attachments/assets/438005d8-3ff3-4ddc-bb8a-09db319f0421)
+![13](https://github.com/user-attachments/assets/2015b97c-253a-4fad-8571-5ac49887dbe3)
+![14](https://github.com/user-attachments/assets/de27a963-d08f-4cff-b8f0-39f394181116)
+![16](https://github.com/user-attachments/assets/7ad95814-a90d-427d-aa59-ac938e017ca7)
+![17](https://github.com/user-attachments/assets/dca291c7-0b7b-4793-8bea-23bfa3d02f72)
+![18](https://github.com/user-attachments/assets/1c4a4a99-2568-435a-83df-71b1f7c87785)
+![19](https://github.com/user-attachments/assets/850d0b03-1689-4b57-b369-66ac4120c2d1)
+
+
+Rise transition time calculation
+
+```math
+Rise\ transition\ time = Time\ taken\ for\ output\ to\ rise\ to\ 80\% - Time\ taken\ for\ output\ to\ rise\ to\ 20\%
+```
+```math
+20\%\ of\ output = 660\ mV
+```
+```math
+80\%\ of\ output = 2.64\ V
+```
+
+80% Screenshot and 20% Screenshot
+
+
+
+```math
+Rise\ transition\ time = 2.24638 - 2.18242 = 0.06396\ ns = 63.96\ ps
+```
+
+Fall transition time calculation
+
+```math
+Fall\ transition\ time = Time\ taken\ for\ output\ to\ fall\ to\ 20\% - Time\ taken\ for\ output\ to\ fall\ to\ 80\%
+```
+```math
+20\%\ of\ output = 660\ mV
+```
+```math
+80\%\ of\ output = 2.64\ V
+```
+
+80% Screenshot and 20% Screenshot
+
+
+
+
+```math
+Fall\ transition\ time = 4.0955 - 4.0536 = 0.0419\ ns = 41.9\ ps
+```
+
+Rise Cell Delay Calculation
+
+```math
+Rise\ Cell\ Delay = Time\ taken\ for\ output\ to\ rise\ to\ 50\% - Time\ taken\ for\ input\ to\ fall\ to\ 50\%
+```
+```math
+50\%\ of\ 3.3\ V = 1.65\ V
+```
+
+50% Screenshots
+
+
+
+
+```math
+Rise\ Cell\ Delay = 2.20926 - 2.15116 = 0.06136\ ns = 58.1\ ps
+```
+
+Fall Cell Delay Calculation
+
+```math
+Fall\ Cell\ Delay = Time\ taken\ for\ output\ to\ fall\ to\ 50\% - Time\ taken\ for\ input\ to\ rise\ to\ 50\%
+```
+```math
+50\%\ of\ 3.3\ V = 1.65\ V
+```
+
+50% Screenshots
+
+
+
+
+```math
+Fall\ Cell\ Delay = 4.07 - 4.05 = 0.02\ ns = 20\ ps
+```
 
 
 
