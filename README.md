@@ -1330,6 +1330,21 @@ $ gtkwave pre_synth_sim.vcd
  ![whs](https://github.com/user-attachments/assets/ac718592-1166-48a2-b4ba-d9c2bee9021d)
 
 
+# LAB14 
+
+## Advanced Physical Design using OpenLANE/Sky130 Workshop
+
+### Day 1 - Inception of open-source EDA, OpenLANE and Sky130 PDK
+
+Section 1 tasks:-
+
+    Run 'picorv32a' design synthesis using OpenLANE flow and generate necessary outputs.
+    Calculate the flop ratio.
+
+F l o p   R a t i o = N u m b e r   o f   D   F l i p   F l o p s T o t a l   N u m b e r   o f   C e l l s
+P e r c e n t a g e   o f   D F F ′ s = F l o p   R a t i o ∗ 100
+
+    All section 1 logs, reports and results can be found in following run folder:
 
 
 
