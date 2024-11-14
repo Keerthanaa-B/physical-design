@@ -1612,13 +1612,15 @@ ext2spice
 ![4_3](https://github.com/user-attachments/assets/0972c866-a6ea-4b7d-b4ed-1fa0e2ac649b)
 ![4_4](https://github.com/user-attachments/assets/f3fa5747-9b35-4f0b-becf-ff311b1bd56f)
 ![5](https://github.com/user-attachments/assets/ba0d2551-ba9b-4f8f-a04a-630acd73cdcb)
-![6](https://github.com/user-attachments/assets/b629728b-2250-44f0-9b2e-69989f58c401)
+
 
 
 
 #### 4. Editing the spice model file for analysis through simulation.
 
 Measuring unit distance in layout grid
+
+![6](https://github.com/user-attachments/assets/b629728b-2250-44f0-9b2e-69989f58c401)
 
 ![7](https://github.com/user-attachments/assets/7b6b881f-bc3e-4bca-92c1-c9d3c54a2c37)
 
