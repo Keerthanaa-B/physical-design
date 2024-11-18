@@ -1764,9 +1764,35 @@ help grid
 grid 0.46um 0.34um 0.23um 0.17um
 ```
 ![1](https://github.com/user-attachments/assets/82ac994d-e4ac-4020-b594-bc3f6dfff57b)
-![4](https://github.com/user-attachments/assets/336855e8-7dd1-4058-b58e-ef3c174427f2)
+![6](https://github.com/user-attachments/assets/0ad8298c-ddfe-43ed-bd73-f0a2d95faf1e)
+
 
 condition 1 verified.
+
+![4](https://github.com/user-attachments/assets/336855e8-7dd1-4058-b58e-ef3c174427f2)
+![5](https://github.com/user-attachments/assets/b0bf5516-c130-472e-bf2e-784eaef6ac96)
+
+condition 2 verified.
+
+```math
+Horizontal\ track\ pitch = 0.46\ um
+```
+
+![6](https://github.com/user-attachments/assets/c608d661-8be0-405a-9f2b-66ac74e1478e)
+
+```math
+Width\ of\ standard\ cell = 1.38\ um = 0.46 * 3
+```
+
+Condition 3 verified
+
+```math
+Vertical\ track\ pitch = 0.34\ um
+```
+![7](https://github.com/user-attachments/assets/7c77547e-d4c4-4377-a8b7-4fe22a6f319d)
+
+
+
 
 
 
