@@ -1938,10 +1938,28 @@ echo $::env(SYNTH_DRIVING_CELL)
 run_synthesis
 ```
 
+Screenshot of merged.lef 
+
+![26](https://github.com/user-attachments/assets/24cc3571-fcd5-4f25-8676-f34a338866c0)
+
+
 ![20](https://github.com/user-attachments/assets/1fff06bb-8a80-4dba-bfee-593714e300bd)
 ![21](https://github.com/user-attachments/assets/a4ca6f75-3021-4380-9d0a-923093dde7fa)
 ![22](https://github.com/user-attachments/assets/b9b9dc9a-5c24-43ad-ad00-87513acbdb0a)
 ![23](https://github.com/user-attachments/assets/6b05d19b-c7bb-4a82-92c3-64cbf2902dc1)
+
+#### 8. Once synthesis has accepted our custom inverter we can now run floorplan and placement and verify the cell is accepted in PnR flow.
+
+Now that our custom inverter is properly accepted in synthesis we can now run floorplan using following command
+
+```tcl
+# Now we can run floorplan
+run_floorplan
+```
+
+![24](https://github.com/user-attachments/assets/3127ca77-34eb-4eaf-bf25-4b3105026a29)
+![25](https://github.com/user-attachments/assets/58479cf1-8bc2-4cca-be1a-fdb34a7d8ad1)
+
 
 
 
