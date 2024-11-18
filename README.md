@@ -1733,6 +1733,43 @@ Fall\ Cell\ Delay = Time\ taken\ for\ output\ to\ fall\ to\ 50\% - Time\ taken\ 
 Fall\ Cell\ Delay = 4.07 - 4.05 = 0.02\ ns = 20\ ps
 ```
 
+## DAY 4 - Pre-layout timing analysis and importance of good clock tree
+
+### 1. Fix up small DRC errors and verify the design is ready to be inserted into our flow.
+
+Conditions to be verified before moving forward with custom designed cell layout:
+* Condition 1: The input and output ports of the standard cell should lie on the intersection of the vertical and horizontal tracks.
+* Condition 2: Width of the standard cell should be odd multiples of the horizontal track pitch.
+* Condition 3: Height of the standard cell should be even multiples of the vertical track pitch.
+
+Commands to open the custom inverter layout
+
+```bash
+# Change directory to vsdstdcelldesign
+cd Desktop/work/tools/openlane_working_dir/openlane/vsdstdcelldesign
+
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_inv.mag &
+```
+
+ ![3](https://github.com/user-attachments/assets/12492820-0e93-4e60-9fc0-31875efb9cec)
+
+ Commands for tkcon window to set grid as tracks of locali layer
+
+```tcl
+# Get syntax for grid command
+help grid
+
+# Set grid values accordingly
+grid 0.46um 0.34um 0.23um 0.17um
+```
+![1](https://github.com/user-attachments/assets/82ac994d-e4ac-4020-b594-bc3f6dfff57b)
+![4](https://github.com/user-attachments/assets/336855e8-7dd1-4058-b58e-ef3c174427f2)
+
+condition 1 verified.
+
+
+
 
 
 
