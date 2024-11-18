@@ -1791,6 +1791,48 @@ Vertical\ track\ pitch = 0.34\ um
 ```
 ![7](https://github.com/user-attachments/assets/7c77547e-d4c4-4377-a8b7-4fe22a6f319d)
 
+```math
+Height\ of\ standard\ cell = 2.72\ um = 0.34 * 8
+```
+
+#### 2. Save the finalized layout with custom name and open it.
+
+Command for tkcon window to save the layout with custom name
+
+```tcl
+# Command to save as
+save sky130_keerinv.mag
+```
+![12](https://github.com/user-attachments/assets/33677661-f72b-42db-9195-3cdaad573d8f)
+
+
+Command to open the newly saved layout
+
+```bash
+# Command to open custom inverter layout in magic
+magic -T sky130A.tech sky130_keerinv.mag &
+```
+![8](https://github.com/user-attachments/assets/b557cdca-eb38-4cd0-9546-e54a484dbec0)
+
+![9](https://github.com/user-attachments/assets/50a392b5-e5d3-4258-94be-c1c03f119974)
+![10](https://github.com/user-attachments/assets/fb2f7b22-d73c-4561-9605-e8170d6ef85b)
+
+#### 3. Generate lef from the layout.
+
+Command for tkcon window to write lef
+
+```tcl
+# lef command
+lef write
+```
+![11](https://github.com/user-attachments/assets/18ceb437-6944-414a-a360-a1eb02599400)
+
+![13](https://github.com/user-attachments/assets/d59e5516-0fa9-45e8-8234-786ccd8b314e)
+
+
+
+
+
 
 
 
