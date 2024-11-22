@@ -1962,6 +1962,79 @@ run_floorplan
 
 
 
+```
+#now we can run placement command
+run_placement
+```
+![26](https://github.com/user-attachments/assets/7d7f79a3-f4cf-4fe7-89f4-8c9398e79130)
+![27](https://github.com/user-attachments/assets/25bbec2c-b80e-4b0f-a977-387ebaa3df00)
+![28](https://github.com/user-attachments/assets/1dcc13ab-84f7-4532-99e5-4200ba4de97c)
+![29](https://github.com/user-attachments/assets/140d8942-ed1c-4556-8566-d7bfc57a1b02)
+![30](https://github.com/user-attachments/assets/b138a846-bdb9-4891-ba5a-4702d93b71a5)
+![31](https://github.com/user-attachments/assets/afa71cea-264e-42a3-b129-60bb6ebd773e)
+![32](https://github.com/user-attachments/assets/722e5956-0a02-4f51-9337-b283f62847c3)
+![33](https://github.com/user-attachments/assets/06498a89-9691-4097-8046-4eff28e68beb)
+
+#### 9. Do Post-Synthesis timing analysis with OpenSTA tool.
+
+Since we are having 0 wns after improved timing run we are going to do timing analysis on initial run of synthesis which has lots of violations and no parameters were added to improve timing
+![34](https://github.com/user-attachments/assets/4c24d895-f3fe-47dc-a282-f703659376e7)
+![35](https://github.com/user-attachments/assets/1093e02c-3953-43c8-a100-ad7d62ae8496)
+![36](https://github.com/user-attachments/assets/0bc7f372-0663-458c-a02a-244fd292e563)
+![37](https://github.com/user-attachments/assets/4911966e-77cf-4b03-b248-8afe0a64f395)
+
+run sta commands in another terminal
+```
+# Change directory to openlane
+cd Desktop/work/tools/openlane_working_dir/openlane
+
+# Command to invoke OpenSTA tool with script
+sta pre_sta.conf
+```
+![38](https://github.com/user-attachments/assets/aff9c5a3-1f44-4c52-8cf9-485619fc7a9d)
+
+Since more fanout is causing more delay we can add parameter to reduce fanout and do synthesis again
+
+![39](https://github.com/user-attachments/assets/8c1e0afd-c074-4803-b17b-6f0abcbc3035)
+![40](https://github.com/user-attachments/assets/60bf7e81-377d-46fa-9cbc-e6db79030f1c)
+![41](https://github.com/user-attachments/assets/6c7d0153-b6e7-4f0c-99b3-6f445f8f944f)
+![41_1](https://github.com/user-attachments/assets/46b5ec81-9aba-47a9-a0d0-893e35a2dd8f)
+![42](https://github.com/user-attachments/assets/63ea4e0e-76c8-46a2-96cb-de143e48f6ed)
+
+Commands to run STA in another terminal
+
+![41](https://github.com/user-attachments/assets/6c7d0153-b6e7-4f0c-99b3-6f445f8f944f)
+![41_1](https://github.com/user-attachments/assets/46b5ec81-9aba-47a9-a0d0-893e35a2dd8f)
+![42](https://github.com/user-attachments/assets/63ea4e0e-76c8-46a2-96cb-de143e48f6ed)
+
+#### 10. Make timing ECO fixes to remove all violations.
+
+![43](https://github.com/user-attachments/assets/9927aec9-e57e-4a73-8d68-dee4f54406e4)
+![43_1](https://github.com/user-attachments/assets/fe7da7e3-d3d7-4cd1-a097-dbdb01f87040)
+![44](https://github.com/user-attachments/assets/6a89ee1f-2b63-4e91-84b0-1c9a570e8dc6)
+![45](https://github.com/user-attachments/assets/1caa6c49-bd6a-4d68-854f-75abd7a5f493)
+![46](https://github.com/user-attachments/assets/6c9b43c9-05ff-4b57-9211-8e7f075d5166)
+![47](https://github.com/user-attachments/assets/22d4b7b2-5b2b-46b1-b228-b284a62f7093)
+![48](https://github.com/user-attachments/assets/4855584a-18b3-48f0-b205-8729379512a6)
+
+#### 11. Replace the old netlist with the new netlist generated after timing ECO fix and implement the floorplan, placement and cts.
+
+![49](https://github.com/user-attachments/assets/7fabb870-65bd-4507-b2f2-2f58f3486ddc)
+![50](https://github.com/user-attachments/assets/db4779a1-ef2a-4052-be24-7becc6526ff9)
+![51](https://github.com/user-attachments/assets/0303c920-309a-469c-9089-62cac2f6f618)
+![52](https://github.com/user-attachments/assets/1718a564-0bb8-4710-8abd-fc140117ca3b)
+![53](https://github.com/user-attachments/assets/291b5c8c-25e7-4bb4-9d1a-77f288393d8f)
+![54](https://github.com/user-attachments/assets/38e30ffa-102e-4819-a216-a31a3bd5d754)
+![55](https://github.com/user-attachments/assets/a7f5e8c2-5cde-4502-ae78-a24a0c85abc5)
+![56](https://github.com/user-attachments/assets/562cb2b1-9ee5-4678-9c84-1b61b823dfc3)
+
+
+
+
+
+
+
+
 
 
 
