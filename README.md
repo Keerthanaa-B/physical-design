@@ -2242,21 +2242,24 @@ pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt neverg
 ![7_macro_autotuner_file](https://github.com/user-attachments/assets/b13b7749-5529-46fa-b787-2dda24b0a5a1)
 ![7_macro_terminal_1](https://github.com/user-attachments/assets/651bc4f6-6037-41dc-b1bb-e9df03e44c2f)
 
-### Section 8 & Section 9 :- 
-This section is all about the updating any issue is found in openroad and opensta resolve it and update it to the git hub.<br/>
-Opensta.<br/>
+### ORFS flow for VSDBABYSOC
+
+#### Initial Steps:
+
+- We need to create a directory `vsdbabysoc` inside `OpenROAD-flow-scripts/flow/designs/sky130hd`
+- Now copy the folders `gds`, `include`, `lef` and `lib` from the VSDBabySoC folder in your system into this directory.
+  - The `gds` folder would contain the files `avsddac.gds` and `avsdpll.gds`
+  - The `include` folder would contain the files `sandpiper.vh`, `sandpiper_gen.vh`, `sp_default.vh` and `sp_verilog.vh`
+  - The `lef` folder would contain the files `avsddac.lef` and `avsdpll.lef`
+  - The `Additional lib` folder would contain the files `avsddac.lib` and `avsdpll.lib`
+- Now copy the constraints file(`vsdbabysoc_synthesis.sdc`) from the VSDBabySoC folder in your system into this directory which we used previously for the above lab work.
+- Now copy the files(`macro.cfg` and `pin_order.cfg`) from the VSDBabySoC folder in your system into this directory or else in the config.mk file use the dia and core area command, it will automatically places the macros.<br/>
+
 ```
-cmake .
-make -j27
-test/regression
-time test/regression
-gedit verilog/VerilogReader.cc
-make
-time test/regression
-cd test/results/
-ls
-cat delay_calc.log
-```
+
+source ./env.sh
+cd flow/
+
 
 
 
