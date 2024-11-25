@@ -2290,7 +2290,11 @@ Report of floorplan
 
 Placement
 
-![16_placement](https://github.com/user-attachments/assets/c0546b82-2b19-4ab1-8af3-cedd5bc5c48f)
+![Screenshot from 2024-11-26 02-52-35](https://github.com/user-attachments/assets/6dd907e9-4511-4309-9f1f-c98b4b481d82)
+![Screenshot from 2024-11-26 02-53-13](https://github.com/user-attachments/assets/737cac73-5e29-4a31-aee9-1863b5f43212)
+![Screenshot from 2024-11-26 02-53-30](https://github.com/user-attachments/assets/49c68d34-a21a-4439-91e1-ed29dd80d18e)
+![Screenshot from 2024-11-26 02-53-56](https://github.com/user-attachments/assets/e5082e56-84d4-4d75-84ce-fea82d2b321e)
+
 
 Report for placement
 
@@ -2299,17 +2303,18 @@ Report for placement
 
 Heat Map
 
-![19_heatmap_placement](https://github.com/user-attachments/assets/4989fcc1-66f9-4d91-81f7-0c49a1d3ebb6)
+![Screenshot from 2024-11-26 02-52-35](https://github.com/user-attachments/assets/6dd907e9-4511-4309-9f1f-c98b4b481d82)
 
 CTS
 
-![17_cts](https://github.com/user-attachments/assets/3c65c73e-b784-4f56-ac09-488a7d540666)
+![Screenshot from 2024-11-26 03-00-14](https://github.com/user-attachments/assets/69776aff-f1f4-4f85-9bd4-4e23214a2cea)
 
-![20_cts_1](https://github.com/user-attachments/assets/88a089de-e4ff-4a52-85a8-014a1f964a6f)
+![Screenshot from 2024-11-26 03-00-54](https://github.com/user-attachments/assets/bb2d2ac0-9de8-4fc5-b308-af68d2622014)
 
-![20_cts_2](https://github.com/user-attachments/assets/5b501017-ce06-4aa2-a80f-e0fbbb1e44ef)
+![Screenshot from 2024-11-26 03-01-29](https://github.com/user-attachments/assets/3f34bbdd-93bb-4d5c-89d7-50ef02b4ac07)
 
-![20_cts_3](https://github.com/user-attachments/assets/e6a57555-9213-4d17-9ace-7f821e166722)
+![Screenshot from 2024-11-26 03-02-06](https://github.com/user-attachments/assets/8735b9cb-1562-497b-b8e6-49349fe0b31a)
+
 
 Report for CTS
 
