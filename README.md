@@ -2268,15 +2268,34 @@ rm -rf logs/sky130hd/ results/sky130hd/ reports/sky130hd/ objects/sky130hd/
 make
 ```
 ![1](https://github.com/user-attachments/assets/66dceea1-2c6d-4951-a6b2-a8fb4dee2176)
+
 ![Screenshot from 2024-11-26 01-34-16](https://github.com/user-attachments/assets/a09f2b99-9487-4f62-92d8-44b7dfdd995b)
+
+![config_file](https://github.com/user-attachments/assets/b1f88cac-ce77-4aa6-b826-8206ca32fa21)
+
+![constraint_file](https://github.com/user-attachments/assets/6ca542da-3f71-43ae-943f-2eb894da1114)
+
+![synth_check](https://github.com/user-attachments/assets/6f0a40ce-90f1-4528-aceb-f448b55eb3a9)
+
+![synth_stat](https://github.com/user-attachments/assets/fbfa0d49-fa8a-470a-adba-584e1912f95b)
+
 
 Floorplan
 
 ![15_floorplan](https://github.com/user-attachments/assets/b1187306-d1a9-476f-beab-3cea9bbe1b1e)
 
+Report of floorplan
+
+![floor_report](https://github.com/user-attachments/assets/4975cf63-2acb-491c-836a-f947003dd12a)
+
 Placement
 
 ![16_placement](https://github.com/user-attachments/assets/c0546b82-2b19-4ab1-8af3-cedd5bc5c48f)
+
+Report for placement
+
+![place_report](https://github.com/user-attachments/assets/e9c2872a-6948-4a7e-8b35-a8d71d3dcda8)
+
 
 Heat Map
 
@@ -2292,9 +2311,16 @@ CTS
 
 ![20_cts_3](https://github.com/user-attachments/assets/e6a57555-9213-4d17-9ace-7f821e166722)
 
+Report for CTS
+
+![cts_report](https://github.com/user-attachments/assets/a82cefdb-2e11-46f4-9427-b98c52069322)
+
+
 Routing
 
 ![18_route](https://github.com/user-attachments/assets/571af878-75b9-4d0c-9f86-0b2a78f1f923)
+
+
 
 
 ![2](https://github.com/user-attachments/assets/b62f13a7-c093-49d1-b251-fcfe5decf422)
