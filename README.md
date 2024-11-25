@@ -2029,9 +2029,8 @@ Commands to run STA in another terminal
 ![56](https://github.com/user-attachments/assets/562cb2b1-9ee5-4678-9c84-1b61b823dfc3)
 
 
-# LAB 15
+# LAB 15 : OpenROAD PHYSICAL DESIGN FOR VSDBABYSOC
 
-## OpenROAD PHYSICAL DESIGN
 ### OpenROAD : Integrated Chip Physical Design Tool
 
 OpenROAD is a comprehensive tool for integrated chip physical design, enabling a seamless transition from RTL to GDSII. It encompasses key stages of chip design, including synthesis, floorplanning, placement, routing, parasitic extraction, and timing analysis. 
