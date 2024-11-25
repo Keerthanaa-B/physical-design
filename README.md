@@ -2029,8 +2029,81 @@ Commands to run STA in another terminal
 ![56](https://github.com/user-attachments/assets/562cb2b1-9ee5-4678-9c84-1b61b823dfc3)
 
 
+# LAB 15
 
+## OpenROAD PHYSICAL DESIGN
+### OpenROAD : Integrated Chip Physical Design Tool
 
+OpenROAD is a comprehensive tool for integrated chip physical design, enabling a seamless transition from RTL to GDSII. It encompasses key stages of chip design, including synthesis, floorplanning, placement, routing, parasitic extraction, and timing analysis. 
+
+Designed to minimize wire length using hierarchical placement algorithms, OpenROAD provides optimization features for both timing and power. Its modular architecture supports extensibility, allowing users to integrate custom algorithms and features.
+
+## OpenROAD Flow Controllers
+
+The OpenROAD project offers two primary flow controllers:
+
+### 1. **OpenROAD-flow-scripts (ORFS)**
+
+ORFS is a flow controller that provides a collection of open-source tools for automated digital ASIC design, enabling a fully automated RTL-to-GDSII design flow. Key features include:
+
+- **Stages**: Synthesis, Placement and Routing (PnR), Static Timing Analysis (STA), Design Rule Check (DRC), and Layout Versus Schematic (LVS).
+- **Flexibility**: Supports customization, allowing users to combine and configure tools based on project needs.
+- **Physical Design Plugin**: Integrates OpenROAD as a plugin for physical design, offering advanced features such as hierarchical placement, global routing, and detailed routing optimization.
+- **PDK Support**: Compatible with several public and private PDKs (under NDA). Publicly available PDKs include GF180, Skywater130, and ASAP7.
+
+### 2. **OpenLane**
+
+OpenLane, developed by Efabless, is another automated RTL-to-GDSII flow similar to ORFS. It is tailored for the Skywater130 MPW Program.
+
+## High-Level ORFS Process (RTL to GDSII)
+
+Below is a brief overview of the stages in the ORFS flow:
+
+### 1. **Configuration**
+   - Customize the framework to meet specific project requirements.
+   - Define design parameters such as the target technology node, constraints, and tool settings.
+
+### 2. **Design Entry**
+   - Input design files in formats like Verilog.
+   - Prepare design sources for further processing.
+
+### 3. **Synthesis**
+   - Convert RTL into a gate-level netlist using tools like **Yosys** and **ABC**.
+
+### 4. **Floorplanning**
+   - Determine the placement of design modules within the chip area.
+   - Tools: **RePlAce**, **Capo**.
+
+### 5. **Placement**
+   - Precisely position each gate or cell in the chip area.
+   - Tool: **OpenROAD**.
+
+### 6. **Routing**
+   - Connect gates and cells using metal wires to form a complete circuit.
+   - Tools: **FastRoute**, **TritonRoute**.
+
+### 7. **Layout Verification**
+   - Verify the correctness of the layout using tools like **Magic**.
+
+### 8. **GDSII Generation**
+   - Generate the final GDSII layout file using tools like **Magic** and **KLayout**.
+
+For additional details about the OpenROAD project, visit [OpenROAD's official documentation](https://theopenroadproject.org).
+
+## Installation and setting up ORFS
+
+### Clone and Install Dependencies
+
+```
+git clone --recursive https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts
+cd OpenROAD-flow-scripts
+sudo ./setup.sh
+```
+### Build
+
+```
+./build_openroad.sh --local
+```
 
 
 
