@@ -2037,7 +2037,7 @@ Commands to run STA in another terminal
 OpenROAD is a comprehensive tool for integrated chip physical design, enabling a seamless transition from RTL to GDSII. It encompasses key stages of chip design, including synthesis, floorplanning, placement, routing, parasitic extraction, and timing analysis. 
 
 Designed to minimize wire length using hierarchical placement algorithms, OpenROAD provides optimization features for both timing and power. Its modular architecture supports extensibility, allowing users to integrate custom algorithms and features.
-
+## Section 1:
 ## OpenROAD Flow Controllers
 
 The OpenROAD project offers two primary flow controllers:
@@ -2091,7 +2091,7 @@ Below is a brief overview of the stages in the ORFS flow:
 
 For additional details about the OpenROAD project, visit [OpenROAD's official documentation](https://theopenroadproject.org).
 
-## Installation and setting up ORFS
+## Section 2: Installation and setting up ORFS
 
 ### Clone and Install Dependencies
 
@@ -2153,7 +2153,7 @@ Now, go to flow directory
 │   ├── scripts             
 ```
 
-Flow structure
+## Section 3 : Flow structure
 ```
 gvim Makefile
 cd designs
