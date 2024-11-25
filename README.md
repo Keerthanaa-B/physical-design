@@ -2127,6 +2127,41 @@ exit
 ![26](https://github.com/user-attachments/assets/2742303a-cbf4-4f15-ad0d-7986809c1778)
 
 
+**ORFS Directory Structure and File formats**
+
+
+``` 
+├── OpenROAD-flow-scripts             
+│   ├── docker           -> It has Docker based installation, run scripts and all saved here
+│   ├── docs             -> Documentation for OpenROAD or its flow scripts.  
+│   ├── flow             -> Files related to run RTL to GDS flow  
+|   ├── jenkins          -> It contains the regression test designed for each build update
+│   ├── tools            -> It contains all the required tools to run RTL to GDS flow
+│   ├── etc              -> Has the dependency installer script and other things
+│   ├── setup_env.sh     -> Its the source file to source all our OpenROAD rules to run the RTL to GDS flow
+```
+
+Now, go to flow directory
+
+``` 
+├── flow           
+│   ├── design           -> It has built-in examples from RTL to GDS flow across different technology nodes
+│   ├── makefile         -> The automated flow runs through makefile setup
+│   ├── platform         -> It has different technology note libraries, lef files, GDS etc 
+|   ├── tutorials        
+│   ├── util            
+│   ├── scripts             
+```
+
+Flow structure
+```
+gvim Makefile
+cd designs
+cd nandgate45
+cd designs/src/gcd
+gvim config.mk
+```
+
 
 
 
