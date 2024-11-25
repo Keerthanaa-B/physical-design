@@ -2085,6 +2085,7 @@ Below is a brief overview of the stages in the ORFS flow:
 ### 7. **Layout Verification**
    - Verify the correctness of the layout using tools like **Magic**.
 
+
 ### 8. **GDSII Generation**
    - Generate the final GDSII layout file using tools like **Magic** and **KLayout**.
 
@@ -2104,6 +2105,46 @@ sudo ./setup.sh
 ```
 ./build_openroad.sh --local
 ```
+
+![1](https://github.com/user-attachments/assets/bc3d4fcd-6f13-4d39-b9d0-977fc040121f)
+![3](https://github.com/user-attachments/assets/f14a5f24-d046-4a5c-b5dd-71929609bccf)
+![12](https://github.com/user-attachments/assets/d838d9df-8376-49e7-825d-6cded01b8c96)
+
+### Verify Installation
+
+```
+source ./env.sh
+yosys -help
+openroad -help
+make
+make gui_final
+exit
+```
+
+
+![27](https://github.com/user-attachments/assets/b9dede89-6724-4d05-8bc6-484cbea20313)
+![25](https://github.com/user-attachments/assets/42b1001d-d9fa-47da-84ab-22ecd49623a6)
+![26](https://github.com/user-attachments/assets/2742303a-cbf4-4f15-ad0d-7986809c1778)
+
+### ORFS Directory Structure and File formats
+
+```
+cd flow/
+gedit Makefile
+cd designs
+cd nandgate45
+cd designs/src/gcd
+gedit config.mk
+```
+
+![20](https://github.com/user-attachments/assets/2edb57b8-b026-4386-813a-564931988ca7)
+![21](https://github.com/user-attachments/assets/3d1890c5-a437-4972-aef5-f245326bdd6d)
+![21_1](https://github.com/user-attachments/assets/d083a5f7-b210-4f20-90c1-b73d58112b75)
+![22](https://github.com/user-attachments/assets/12065df4-a2db-4d0f-97b0-e1c33c154245)
+![24](https://github.com/user-attachments/assets/60cd0fa9-446e-4f6b-b71c-73efb4de0a79)
+![28](https://github.com/user-attachments/assets/53ce372a-4324-4283-8605-813e40e66bd3)
+![29](https://github.com/user-attachments/assets/afe59f3b-f12e-43b3-a0e6-a159d9cf4fcd)
+
 
 
 
