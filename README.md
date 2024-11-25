@@ -2159,8 +2159,12 @@ gvim Makefile
 cd designs
 cd nandgate45
 cd designs/src/gcd
-gvim config.mk
+gedit config.mk
 ```
+![28](https://github.com/user-attachments/assets/ed867382-e8b2-445a-ae6b-c74873a900d6)
+![29](https://github.com/user-attachments/assets/02491529-d73f-4c9b-82ba-800632dbffcc)
+![30](https://github.com/user-attachments/assets/ef9aadf4-f10e-4f49-9466-ace86d391e4d)
+
 
 
 
