@@ -2206,31 +2206,34 @@ GCD
 ![1_gcd_terminal_1](https://github.com/user-attachments/assets/fc0bc6b5-e03d-48f1-a5c7-9758ae4290c4)
 ![1_gcd_terminal_2](https://github.com/user-attachments/assets/f88e47af-04ad-48d9-93a9-c79773f06c0c)
 
-Floorplan
+Floorplan:
 
 ![2_gcd_floorplan](https://github.com/user-attachments/assets/0d5ab210-bb0c-44d7-9216-97c8b3fdce4f)
 
-Placement
+Placement:
 
 ![3_gcd_place](https://github.com/user-attachments/assets/3aa3a690-f064-4d33-b2ff-4fc716c763e2)
 ![3_gcd_placement_1](https://github.com/user-attachments/assets/c6987208-4dfd-4bd3-9ab2-17257a9e952f)
+
+Heat Map:
+
 ![3_gcd_placement_2](https://github.com/user-attachments/assets/ba3a6fc3-b62f-4084-8c8e-47ee886117c3)
 ![3_gcd_placement_3](https://github.com/user-attachments/assets/48ee0b10-52b7-4804-b4d0-a6ce5d8fb864)
 
-CTS
+CTS:
 
 ![4_gcd_cts](https://github.com/user-attachments/assets/67ac5740-fc26-4024-a8f2-0623a20b8ddc)
 ![4_gcd_cts_1](https://github.com/user-attachments/assets/7d16ef23-0d4d-47f2-a074-dbb242d4c36e)
 ![4_gcd_cts_3](https://github.com/user-attachments/assets/52c10a0a-daa5-49c4-9c36-3c7dd5f5db40)
 
-Routing
+Routing:
 
 ![5_gcd_route](https://github.com/user-attachments/assets/5e21dbe2-e811-4408-be25-8da372b5e26e)
 
 ![image](https://github.com/user-attachments/assets/d046c0e2-c1f4-431a-af57-a24a39726b94)
 
 
-Final
+Final:
 
 ![6_gcd_final](https://github.com/user-attachments/assets/d4e1bc1a-f3c4-4827-af56-6509d69f0e48)
 
