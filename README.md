@@ -2166,6 +2166,99 @@ gedit config.mk
 ![30](https://github.com/user-attachments/assets/ef9aadf4-f10e-4f49-9466-ace86d391e4d)
 
 
+### Section 4:- Automated RTL2GDS Flow for VSDBabySoC.
+This is done by seeing the workshop video.
+
+Initial Steps:
+
+- We need to create a directory `vsdbabysoc` inside `OpenROAD-flow-scripts/flow/designs/sky130hd`
+- Now copy the folders `gds`, `include`, `lef` and `lib` from the VSDBabySoC folder in your system into this directory.
+  - The `gds` folder would contain the files `avsddac.gds` and `avsdpll.gds`
+  - The `include` folder would contain the files `sandpiper.vh`, `sandpiper_gen.vh`, `sp_default.vh` and `sp_verilog.vh`
+  - The `lef` folder would contain the files `avsddac.lef` and `avsdpll.lef`
+  - The `Additional lib` folder would contain the files `avsddac.lib` and `avsdpll.lib`
+- Now copy the constraints file(`vsdbabysoc_synthesis.sdc`) from the VSDBabySoC folder in your system into this directory which we used previously for the above lab work.
+- Now copy the files(`macro.cfg` and `pin_order.cfg`) from the VSDBabySoC folder in your system into this directory or else in the config.mk file use the dia and core area command, it will automatically places the macros.<br/>
+
+
+### Section 5:- OpenROAD GUI.
+&
+### Section 6:- Macro Placement RTL MP and QOR.<BR/>
+Here in both the section we just opened the gui file of gcd design of nangate45 platform and ariane136 design, which we run the make command and after once it is fully completed then we opened the gui of floorplan, placement, cts, route, final.
+The commands are:-
+```
+# Assuming you should be inside the OpenROad directory inside flow folder then run below commands.
+make # by default makefile will have the gcd as the default design
+# or
+make DESIGN_CONFIG=./designs/sky130hd/gcd/config.mk
+make gui_floorplan
+make gui_place
+make gui_cts
+make gui_route
+make gui_final
+# or we can open the gui file and their we select the .odb file going through the results folder of nangate45 platform
+source ./env.sh # go to the OpenROAD directory then run this command then below command
+openroad -gui
+make metadata
+gedit designs/nangate45/gcd/metadata-base-ok.json
+```
+GCD
+
+![1_gcd_terminal_1](https://github.com/user-attachments/assets/fc0bc6b5-e03d-48f1-a5c7-9758ae4290c4)
+![1_gcd_terminal_2](https://github.com/user-attachments/assets/f88e47af-04ad-48d9-93a9-c79773f06c0c)
+
+Floorplan
+
+![2_gcd_floorplan](https://github.com/user-attachments/assets/0d5ab210-bb0c-44d7-9216-97c8b3fdce4f)
+
+Placement
+
+![3_gcd_place](https://github.com/user-attachments/assets/3aa3a690-f064-4d33-b2ff-4fc716c763e2)
+![3_gcd_placement_1](https://github.com/user-attachments/assets/c6987208-4dfd-4bd3-9ab2-17257a9e952f)
+![3_gcd_placement_2](https://github.com/user-attachments/assets/ba3a6fc3-b62f-4084-8c8e-47ee886117c3)
+![3_gcd_placement_3](https://github.com/user-attachments/assets/48ee0b10-52b7-4804-b4d0-a6ce5d8fb864)
+
+CTS
+
+![4_gcd_cts](https://github.com/user-attachments/assets/67ac5740-fc26-4024-a8f2-0623a20b8ddc)
+![4_gcd_cts_1](https://github.com/user-attachments/assets/7d16ef23-0d4d-47f2-a074-dbb242d4c36e)
+![4_gcd_cts_3](https://github.com/user-attachments/assets/52c10a0a-daa5-49c4-9c36-3c7dd5f5db40)
+
+Routing
+
+![5_gcd_route](https://github.com/user-attachments/assets/5e21dbe2-e811-4408-be25-8da372b5e26e)
+
+Final
+
+![6_gcd_final](https://github.com/user-attachments/assets/d4e1bc1a-f3c4-4827-af56-6509d69f0e48)
+
+
+### Section 7:- Design exploration using Autotuner.
+Go to the given link of OpenROAD documentation their you will get how to use it https://openroad-flow-scripts.readthedocs.io/en/latest/user/InstructionsForAutoTuner.html#.<br/>
+```
+pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt nevergrad optuna pandas
+```
+
+![7_macro_autotuner_file](https://github.com/user-attachments/assets/b13b7749-5529-46fa-b787-2dda24b0a5a1)
+![7_macro_terminal_1](https://github.com/user-attachments/assets/651bc4f6-6037-41dc-b1bb-e9df03e44c2f)
+
+### Section 8 & Section 9 :- 
+This section is all about the updating any issue is found in openroad and opensta resolve it and update it to the git hub.<br/>
+Opensta.<br/>
+```
+cmake .
+make -j27
+test/regression
+time test/regression
+gedit verilog/VerilogReader.cc
+make
+time test/regression
+cd test/results/
+ls
+cat delay_calc.log
+```
+
+
 
 
 
