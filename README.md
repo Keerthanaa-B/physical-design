@@ -1,4 +1,4 @@
-# Physical_Design
+![11](https://github.com/user-attachments/assets/4d88bee7-0393-4272-83cf-8ce6159853a1)# Physical_Design
 ## This is Keerthana B (MS2024010)
 ## Course - Physical Design of ASICs ( VLS508)
 # LAB-1
@@ -2259,6 +2259,63 @@ pip3.9 install -U --user 'ray[default,tune]==1.11.0' ax-platform hyperopt neverg
 
 source ./env.sh
 cd flow/
+make DESIGN_CONFIG=./designs/sky130hd/vsdbabysoc/config.mk
+```
+After this if you got any errors in steps you can again do the same process by using following commands
+
+```
+rm -rf logs/sky130hd/ results/sky130hd/ reports/sky130hd/ objects/sky130hd/
+make
+```
+![1](https://github.com/user-attachments/assets/66dceea1-2c6d-4951-a6b2-a8fb4dee2176)
+![Screenshot from 2024-11-26 01-34-16](https://github.com/user-attachments/assets/a09f2b99-9487-4f62-92d8-44b7dfdd995b)
+
+Floorplan
+
+![15_floorplan](https://github.com/user-attachments/assets/b1187306-d1a9-476f-beab-3cea9bbe1b1e)
+
+Placement
+
+![16_placement](https://github.com/user-attachments/assets/c0546b82-2b19-4ab1-8af3-cedd5bc5c48f)
+
+Heat Map
+
+![19_heatmap_placement](https://github.com/user-attachments/assets/4989fcc1-66f9-4d91-81f7-0c49a1d3ebb6)
+
+CTS
+
+![17_cts](https://github.com/user-attachments/assets/3c65c73e-b784-4f56-ac09-488a7d540666)
+
+![20_cts_1](https://github.com/user-attachments/assets/88a089de-e4ff-4a52-85a8-014a1f964a6f)
+
+![20_cts_2](https://github.com/user-attachments/assets/5b501017-ce06-4aa2-a80f-e0fbbb1e44ef)
+
+![20_cts_3](https://github.com/user-attachments/assets/e6a57555-9213-4d17-9ace-7f821e166722)
+
+Routing
+
+![18_route](https://github.com/user-attachments/assets/571af878-75b9-4d0c-9f86-0b2a78f1f923)
+
+
+![2](https://github.com/user-attachments/assets/b62f13a7-c093-49d1-b251-fcfe5decf422)
+![3](https://github.com/user-attachments/assets/ed50d796-b3d4-4393-813a-cc8fa6217fc6)
+![4](https://github.com/user-attachments/assets/2aabf310-4d85-4163-8151-a28517fb0cc2)
+![5](https://github.com/user-attachments/assets/54482b7d-af06-4149-b18e-13f7dd510d9d)
+![6](https://github.com/user-attachments/assets/ff662b61-19cd-4b82-9c9f-5b1526a44edc)
+![7](https://github.com/user-attachments/assets/d46424a9-e20d-4a01-9b62-ad7c328df962)
+![8_overflow](https://github.com/user-attachments/assets/6dc82551-174b-401b-9eb1-1422f26ed868)
+![9](https://github.com/user-attachments/assets/b6eb8807-b024-4292-b626-e3c8bf4028cd)
+![10](https://github.com/user-attachments/assets/2751f11c-f400-448d-bb17-277371561645)
+![11](https://github.com/user-attachments/assets/2d2a0e56-a1c9-4bc8-bc72-e5e95667ad9a)
+![12](https://github.com/user-attachments/assets/f81a656f-f7ec-4bc6-8ae9-9d35cd312885)
+![13](https://github.com/user-attachments/assets/7cd6b9e9-8e46-44f4-95b2-c1f90c315b85)
+
+During Routing step im getting congestion error.
+
+
+
+
+
 
 
 
