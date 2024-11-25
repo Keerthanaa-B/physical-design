@@ -2147,6 +2147,36 @@ gedit config.mk
 
 
 
+![30](https://github.com/user-attachments/assets/b9f92e1b-8f14-46df-81fb-513c46bffffc)
+![31](https://github.com/user-attachments/assets/40a18502-ad68-4547-bb95-cd18ac8cdb11)
+![32](https://github.com/user-attachments/assets/b0d77faf-f331-4a34-b60e-53fbd0938314)
+![33](https://github.com/user-attachments/assets/859d03ff-c130-47b5-bed2-f1dc75231d5c)
+![34](https://github.com/user-attachments/assets/15d19675-f5b7-4059-9db7-a55ab771772f)
+![34_1](https://github.com/user-attachments/assets/09ce2b54-964c-4d1e-b9ce-f954792ee2bf)
+![35](https://github.com/user-attachments/assets/6b766e23-32f5-4431-8989-5c376a613504)
+![36](https://github.com/user-attachments/assets/d1fdd0c0-28de-4117-8bb0-60f52da303ee)
+![37](https://github.com/user-attachments/assets/28ac28dd-be09-4638-a838-c26074fab5c9)
+![38](https://github.com/user-attachments/assets/3fa8f1ff-615d-4685-ac5b-f5654778e91f)
+![39](https://github.com/user-attachments/assets/42f87010-a8ea-41a8-8e01-29878473323a)
+![40](https://github.com/user-attachments/assets/3f80fb7a-5496-4ed8-894a-d1d33e6afa8b)
+![41](https://github.com/user-attachments/assets/800860e4-73d2-4f0e-84c4-6e12e61ce982)
+![42](https://github.com/user-attachments/assets/a16038c5-930f-4b5e-8e5b-5bba97737e1c)
+![42_1](https://github.com/user-attachments/assets/57804777-35e2-4323-9b62-e22689acd2b5)
+![43](https://github.com/user-attachments/assets/46cc145a-7edd-4934-ad7d-3a9fc6707e03)
+![44](https://github.com/user-attachments/assets/eef17dda-bd1c-490d-ba19-2bfb33c4a149)
+![45](https://github.com/user-attachments/assets/d537c583-d167-43f3-95fb-539bd186bd88)
+![46](https://github.com/user-attachments/assets/e0ebbe5d-aaf4-42c3-b1f6-6d40884c45cc)
+![47](https://github.com/user-attachments/assets/ff72a21b-db17-4db3-bca4-f44b6da497f8)
+![48](https://github.com/user-attachments/assets/7d1404db-058c-46f8-a479-2d5c35bb38c2)
+![49](https://github.com/user-attachments/assets/fa94b994-29cc-42f0-91f9-e66aa50b2f9d)
+![50](https://github.com/user-attachments/assets/faeb112c-cd4a-40a4-9aa8-c0556b74572b)
+![51](https://github.com/user-attachments/assets/38111ea9-7271-4fd3-b091-e21dcb9f862c)
+![52_floorplan_sky130hd_gcd_](https://github.com/user-attachments/assets/30f5b63b-6b22-4d4a-a694-4d6e8a484e63)
+![52_place_sky130hd_gcd_](https://github.com/user-attachments/assets/5d770d56-5565-41b2-ad07-867e75be39c1)
+
+
+
+
 
 
 
