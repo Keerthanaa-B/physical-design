@@ -2282,6 +2282,11 @@ make
 
 Floorplan
 
+command to open floorplan in gui is 
+```
+make gui_floorplan
+```
+
 ![15_floorplan](https://github.com/user-attachments/assets/b1187306-d1a9-476f-beab-3cea9bbe1b1e)
 
 Report of floorplan
@@ -2298,14 +2303,31 @@ Placement
 
 Report for placement
 
+command to open placement in gui is 
+```
+make gui_place
+```
+
 ![place_report](https://github.com/user-attachments/assets/e9c2872a-6948-4a7e-8b35-a8d71d3dcda8)
 
 
 Heat Map
 
+command to generate heatmap is
+
+```
+make gui_place
+```
+
 ![Screenshot from 2024-11-26 02-52-35](https://github.com/user-attachments/assets/6dd907e9-4511-4309-9f1f-c98b4b481d82)
 
 CTS
+
+command to generate CTS is 
+
+```
+make gui_cts
+```
 
 ![Screenshot from 2024-11-26 03-00-14](https://github.com/user-attachments/assets/69776aff-f1f4-4f85-9bd4-4e23214a2cea)
 
@@ -2322,6 +2344,13 @@ Report for CTS
 
 
 Routing
+
+command to generate Routing is 
+
+```
+make gui_route
+```
+
 
 ![18_route](https://github.com/user-attachments/assets/571af878-75b9-4d0c-9f86-0b2a78f1f923)
 
