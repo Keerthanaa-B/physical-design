@@ -2227,6 +2227,9 @@ Routing
 
 ![5_gcd_route](https://github.com/user-attachments/assets/5e21dbe2-e811-4408-be25-8da372b5e26e)
 
+![image](https://github.com/user-attachments/assets/d046c0e2-c1f4-431a-af57-a24a39726b94)
+
+
 Final
 
 ![6_gcd_final](https://github.com/user-attachments/assets/d4e1bc1a-f3c4-4827-af56-6509d69f0e48)
